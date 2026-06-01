@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nélida Beatriz Díaz · Mary Kay · Mendoza</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   CONFIG — para Nélida:
+   • Tu número de WhatsApp ya está cargado abajo (WA_NUMBER).
+   • Para agregar una FOTO a un producto: en la lista de productos
+     (más abajo, en PRODUCTS), agregá  img:"URL_de_la_foto"  al producto.
+     Si no hay foto, se muestra un mosaico elegante automáticamente.
+   ============================================================ */
+:root{
+  --paper:#f6efe7;
+  --paper-2:#efe4d8;
+  --ink:#2a2230;
+  --ink-soft:#6b6070;
+  --berry:#8e2f5a;
+  --berry-deep:#5f1d3c;
+  --rose:#d98aa8;
+  --blush:#f0d3dc;
+  --amber:#c98a3e;
+  --line:#e0d2c4;
+  --card:#fffaf4;
+  --shadow:0 18px 40px -24px rgba(95,29,60,.45);
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Jost',sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+  background:
+    radial-gradient(1200px 600px at 85% -10%, rgba(217,138,168,.22), transparent 60%),
+    radial-gradient(900px 500px at -10% 30%, rgba(201,138,62,.14), transparent 55%);
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+
+/* ---------- TOP BAR ---------- */
+.topbar{
+  position:sticky;top:0;z-index:50;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:14px;padding:12px clamp(16px,4vw,48px);
+  background:rgba(246,239,231,.82);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.brand{display:flex;flex-direction:column;line-height:1.05}
+.brand b{font-family:'Fraunces',serif;font-weight:600;font-size:1.05rem;letter-spacing:.01em}
+.brand span{font-size:.7rem;letter-spacing:.28em;text-transform:uppercase;color:var(--berry);font-weight:500}
+.wa-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--berry);color:#fff;font-weight:500;
+  padding:10px 16px;border-radius:999px;font-size:.9rem;
+  box-shadow:var(--shadow);transition:.25s;white-space:nowrap;
+}
+.wa-btn:hover{background:var(--berry-deep);transform:translateY(-1px)}
+.wa-btn svg{width:18px;height:18px;fill:#fff}
+
+/* ---------- HERO ---------- */
+.hero{
+  position:relative;z-index:1;
+  padding:clamp(48px,9vw,110px) clamp(16px,4vw,48px) clamp(36px,6vw,72px);
+  max-width:1180px;margin:0 auto;
+}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:.74rem;letter-spacing:.34em;text-transform:uppercase;
+  color:var(--berry);font-weight:600;margin-bottom:22px;
+}
+.eyebrow::before{content:"";width:34px;height:1px;background:var(--berry)}
+.hero h1{
+  font-family:'Fraunces',serif;font-weight:400;
+  font-size:clamp(2.6rem,8vw,5.6rem);line-height:.98;
+  letter-spacing:-.01em;margin-bottom:8px;
+}
+.hero h1 em{font-style:italic;color:var(--berry)}
+.hero .sub{
+  font-family:'Fraunces',serif;font-style:italic;font-weight:300;
+  font-size:clamp(1.15rem,3vw,1.7rem);color:var(--ink-soft);margin-bottom:26px;
+}
+.hero p.lead{max-width:54ch;color:var(--ink-soft);font-size:1.05rem;margin-bottom:30px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.ghost-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 22px;border:1.5px solid var(--ink);border-radius:999px;
+  font-weight:500;transition:.25s;
+}
+.ghost-btn:hover{background:var(--ink);color:var(--paper)}
+.season-chip{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--blush);color:var(--berry-deep);
+  padding:8px 16px;border-radius:999px;font-size:.8rem;font-weight:600;
+  letter-spacing:.05em;
+}
+
+/* ---------- CONTROLS ---------- */
+.controls{
+  position:sticky;top:60px;z-index:40;
+  background:rgba(246,239,231,.9);backdrop-filter:blur(12px);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:14px clamp(16px,4vw,48px);
+}
+.controls-inner{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.search-wrap{position:relative;max-width:420px;width:100%}
+.search-wrap svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;fill:var(--ink-soft)}
+#search{
+  width:100%;padding:12px 16px 12px 42px;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--card);
+  font-family:inherit;font-size:.95rem;color:var(--ink);
+}
+#search:focus{outline:none;border-color:var(--rose)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{height:0}
+.chip{
+  white-space:nowrap;padding:8px 16px;border-radius:999px;
+  border:1.5px solid var(--line);background:transparent;color:var(--ink-soft);
+  font-family:inherit;font-size:.85rem;font-weight:500;cursor:pointer;transition:.2s;
+}
+.chip:hover{border-color:var(--rose);color:var(--ink)}
+.chip.active{background:var(--berry);border-color:var(--berry);color:#fff}
+
+/* ---------- GRID ---------- */
+main{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(16px,4vw,48px) 140px}
+.cat-block{margin-bottom:56px;scroll-margin-top:140px}
+.cat-head{display:flex;align-items:baseline;gap:14px;margin-bottom:22px;flex-wrap:wrap}
+.cat-head h2{font-family:'Fraunces',serif;font-weight:500;font-size:clamp(1.5rem,4vw,2.3rem);letter-spacing:-.01em}
+.cat-head .count{font-size:.8rem;color:var(--ink-soft);letter-spacing:.05em}
+.cat-head .rule{flex:1;height:1px;background:var(--line);min-width:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  overflow:hidden;display:flex;flex-direction:column;transition:.28s;position:relative;
+}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--rose)}
+.thumb{aspect-ratio:4/3;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--blush),var(--paper-2))}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.thumb-fallback{
+  position:absolute;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:8px;color:var(--berry);
+}
+.thumb-fallback .mono{font-family:'Fraunces',serif;font-size:2.6rem;font-weight:500;opacity:.85;line-height:1}
+.thumb-fallback small{font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;color:var(--berry-deep);opacity:.7}
+.flag{
+  position:absolute;top:10px;left:10px;background:var(--amber);color:#fff;
+  font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  padding:4px 9px;border-radius:999px;
+}
+.card-body{padding:14px 15px 16px;display:flex;flex-direction:column;flex:1;gap:6px}
+.tag{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--berry);font-weight:600}
+.card h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.04rem;line-height:1.18}
+.meta{font-size:.78rem;color:var(--ink-soft);min-height:1.1em}
+.tones{font-size:.72rem;color:var(--ink-soft);font-style:italic}
+.price-row{margin-top:auto;display:flex;align-items:baseline;gap:8px;padding-top:8px}
+.price{font-family:'Fraunces',serif;font-weight:600;font-size:1.3rem;color:var(--ink)}
+.price-note{font-size:.62rem;color:var(--amber);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.card-actions{display:flex;gap:8px;margin-top:10px}
+.add-btn{
+  flex:1;display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  background:var(--berry);color:#fff;border:none;border-radius:11px;
+  padding:10px;font-family:inherit;font-size:.85rem;font-weight:500;cursor:pointer;transition:.2s;
+}
+.add-btn:hover{background:var(--berry-deep)}
+.add-btn.added{background:#3f7d4f}
+.ask-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:42px;border:1.5px solid var(--line);border-radius:11px;background:transparent;cursor:pointer;transition:.2s;
+}
+.ask-btn:hover{border-color:var(--rose);background:var(--blush)}
+.ask-btn svg{width:18px;height:18px;fill:var(--berry)}
+.no-results{text-align:center;color:var(--ink-soft);padding:60px 0;font-style:italic;font-family:'Fraunces',serif;font-size:1.2rem}
+
+/* ---------- FLOATING ORDER BUTTON ---------- */
+.order-fab{
+  position:fixed;right:18px;bottom:18px;z-index:60;
+  display:flex;align-items:center;gap:10px;
+  background:var(--ink);color:var(--paper);
+  padding:14px 20px;border-radius:999px;border:none;cursor:pointer;
+  font-family:inherit;font-size:.95rem;font-weight:500;
+  box-shadow:0 16px 36px -12px rgba(42,34,48,.6);
+  transform:translateY(120px);transition:.35s cubic-bezier(.2,.8,.2,1);
+}
+.order-fab.show{transform:translateY(0)}
+.order-fab .badge{
+  background:var(--rose);color:var(--berry-deep);min-width:24px;height:24px;
+  border-radius:999px;display:inline-flex;align-items:center;justify-content:center;
+  font-size:.8rem;font-weight:600;padding:0 6px;
+}
+.wa-float{
+  position:fixed;left:18px;bottom:18px;z-index:55;
+  width:56px;height:56px;border-radius:50%;background:#25D366;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 14px 30px -10px rgba(37,211,102,.7);transition:.25s;
+}
+.wa-float:hover{transform:scale(1.07)}
+.wa-float svg{width:30px;height:30px;fill:#fff}
+
+/* ---------- ORDER DRAWER ---------- */
+.overlay{
+  position:fixed;inset:0;z-index:70;background:rgba(42,34,48,.45);
+  backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:.3s;
+}
+.overlay.show{opacity:1;pointer-events:auto}
+.drawer{
+  position:fixed;top:0;right:0;height:100%;width:min(420px,100%);z-index:80;
+  background:var(--paper);border-left:1px solid var(--line);
+  display:flex;flex-direction:column;
+  transform:translateX(105%);transition:.38s cubic-bezier(.2,.8,.2,1);
+  box-shadow:-20px 0 60px -30px rgba(42,34,48,.6);
+}
+.drawer.show{transform:translateX(0)}
+.drawer-head{padding:20px 22px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}
+.drawer-head h2{font-family:'Fraunces',serif;font-weight:500;font-size:1.4rem}
+.drawer-head p{font-size:.78rem;color:var(--ink-soft)}
+.close-x{background:none;border:none;cursor:pointer;font-size:1.6rem;color:var(--ink-soft);line-height:1;padding:4px}
+.drawer-body{flex:1;overflow-y:auto;padding:14px 18px}
+.empty-cart{text-align:center;color:var(--ink-soft);padding:50px 16px;font-style:italic;font-family:'Fraunces',serif}
+.line-item{display:flex;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}
+.line-item .li-info{flex:1;min-width:0}
+.line-item h4{font-size:.92rem;font-weight:500;line-height:1.2}
+.line-item .li-meta{font-size:.74rem;color:var(--ink-soft)}
+.li-controls{display:flex;align-items:center;gap:8px;margin-top:7px}
+.qty-btn{width:26px;height:26px;border-radius:8px;border:1.5px solid var(--line);background:var(--card);cursor:pointer;font-size:1rem;line-height:1;color:var(--ink);display:flex;align-items:center;justify-content:center}
+.qty-btn:hover{border-color:var(--rose)}
+.qty-num{min-width:22px;text-align:center;font-weight:600}
+.li-right{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.li-price{font-family:'Fraunces',serif;font-weight:600}
+.li-remove{background:none;border:none;color:var(--ink-soft);font-size:.72rem;cursor:pointer;text-decoration:underline}
+.li-remove:hover{color:var(--berry)}
+.drawer-foot{padding:18px 22px;border-top:1px solid var(--line);background:var(--paper-2)}
+.total-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px}
+.total-row span{font-size:.85rem;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase}
+.total-row b{font-family:'Fraunces',serif;font-size:1.7rem;font-weight:600}
+.send-order{
+  width:100%;display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  background:#25D366;color:#fff;border:none;border-radius:14px;padding:15px;
+  font-family:inherit;font-size:1.02rem;font-weight:600;cursor:pointer;transition:.2s;
+}
+.send-order:hover{filter:brightness(.95)}
+.send-order svg{width:22px;height:22px;fill:#fff}
+.drawer-foot small{display:block;text-align:center;color:var(--ink-soft);font-size:.72rem;margin-top:10px;line-height:1.4}
+
+/* ---------- FOOTER ---------- */
+footer{position:relative;z-index:1;background:var(--berry-deep);color:#f3e2e9;padding:clamp(40px,7vw,72px) clamp(16px,4vw,48px)}
+.foot-inner{max-width:1180px;margin:0 auto;display:grid;gap:34px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+footer h3{font-family:'Fraunces',serif;font-weight:500;font-size:1.7rem;margin-bottom:6px}
+footer .role{font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:var(--rose);margin-bottom:16px}
+footer p{font-size:.92rem;color:#e6cdd6;margin-bottom:8px}
+.foot-wa{display:inline-flex;align-items:center;gap:9px;background:#25D366;color:#fff;padding:11px 18px;border-radius:999px;font-weight:600;margin-top:8px}
+.foot-wa svg{width:18px;height:18px;fill:#fff}
+.foot-col h5{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rose);margin-bottom:12px}
+.foot-col a,.foot-col span{display:block;font-size:.9rem;color:#e6cdd6;margin-bottom:7px;cursor:pointer}
+.foot-col a:hover{color:#fff}
+.disclaimer{max-width:1180px;margin:34px auto 0;padding-top:22px;border-top:1px solid rgba(243,226,233,.18);font-size:.74rem;color:#caa6b4;line-height:1.6}
+
+@media(max-width:600px){
+  .controls{top:58px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+  .wa-btn span.full{display:none}
+  .order-fab{right:12px;bottom:12px}
+  .wa-float{left:12px;bottom:12px}
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<header class="topbar">
+  <div class="brand">
+    <b>Nélida Beatriz Díaz</b>
+    <span>Mary Kay · Mendoza</span>
+  </div>
+  <a class="wa-btn" id="topWa" href="#" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.748-.957zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    <span class="full">WhatsApp</span>
+  </a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <span class="eyebrow">Consultora de Belleza Independiente</span>
+  <h1>Tu belleza, <em>tu</em> momento.</h1>
+  <p class="sub">Catálogo Mary Kay · The Look — Otoño 2026</p>
+  <p class="lead">Hola, soy Nélida. Acercate al cuidado de la piel, maquillaje y fragancias Mary Kay con asesoramiento personalizado acá en Mendoza. Elegí tus productos y armá tu pedido: te llega directo a mi WhatsApp y coordinamos todo por ahí.</p>
+  <div class="hero-cta">
+    <a class="ghost-btn" href="#catalogo">Ver catálogo ↓</a>
+    <span class="season-chip">✦ Envíos y entregas a coordinar en Mendoza</span>
+  </div>
+</section>
+
+<!-- CONTROLS -->
+<div class="controls" id="catalogo">
+  <div class="controls-inner">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 10-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1114 9.5 4.49 4.49 0 019.5 14z"/></svg>
+      <input id="search" type="text" placeholder="Buscar producto…" autocomplete="off">
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+</div>
+
+<!-- CATALOG -->
+<main id="catalog"></main>
+
+<!-- FLOATING -->
+<a class="wa-float" id="floatWa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.748-.957zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+<button class="order-fab" id="orderFab">
+  🛍 Mi pedido <span class="badge" id="fabBadge">0</span>
+</button>
+
+<!-- DRAWER -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer-head">
+    <div>
+      <h2>Mi pedido</h2>
+      <p>Revisá tu selección y enviála por WhatsApp</p>
+    </div>
+    <button class="close-x" id="closeDrawer">×</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+  <div class="drawer-foot">
+    <div class="total-row"><span>Total estimado</span><b id="total">$0</b></div>
+    <button class="send-order" id="sendOrder">
+      <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.748-.957zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+      Enviar pedido por WhatsApp
+    </button>
+    <small>El total es orientativo. Nélida te confirma disponibilidad, formas de pago y entrega por WhatsApp.</small>
+  </div>
+</aside>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div>
+      <h3>Nélida Beatriz Díaz</h3>
+      <p class="role">Consultora Mary Kay · Mendoza</p>
+      <p>Asesoramiento personalizado en cuidado de la piel, maquillaje y fragancias.</p>
+      <a class="foot-wa" id="footWa" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.748-.957z"/></svg>
+        261 511-9576
+      </a>
+    </div>
+    <div class="foot-col">
+      <h5>Cómo comprar</h5>
+      <span>1 · Elegí tus productos</span>
+      <span>2 · Tocá "Agregar al pedido"</span>
+      <span>3 · Enviá tu pedido por WhatsApp</span>
+      <span>4 · Coordinamos pago y entrega</span>
+    </div>
+    <div class="foot-col">
+      <h5>Categorías</h5>
+      <div id="footCats"></div>
+    </div>
+  </div>
+  <p class="disclaimer">
+    Sitio personal de una Consultora de Belleza Independiente Mary Kay. No es el sitio oficial de Mary Kay Inc.
+    Mary Kay® y los nombres de los productos son marcas de sus respectivos titulares. Precios sugeridos del catálogo
+    The Look — Otoño 2026 (Argentina), expresados en pesos argentinos y sujetos a cambios sin previo aviso.
+    La compra se coordina de forma personal por WhatsApp; este sitio no procesa pagos en línea.
+  </p>
+</footer>
+
+<script>
+/* ====== CONFIGURACIÓN ====== */
+const WA_NUMBER = "5492615119576"; // +54 9 261 511-9576  (Nélida)
+const SELLER = "Nélida";
+
+/* ====== PRODUCTOS ======
+   Campos: cat (categoría), tag (subtítulo), name, meta (presentación/origen),
+   price (número), tones (opcional), note (opcional), feat (destacado), img (opcional)  */
+const PRODUCTS = [
+/* ---- CUIDADO DE LA PIEL · Línea Mary Kay ---- */
+{cat:"Cuidado de la Piel",tag:"Línea Mary Kay",name:"Limpiador Facial Hidratante",meta:"127 g · EEUU · piel Normal a Seca",price:31000},
+{cat:"Cuidado de la Piel",tag:"Línea Mary Kay",name:"Limpiador Facial Matificante",meta:"127 g · EEUU · piel Combinada a Grasa",price:31000},
+{cat:"Cuidado de la Piel",tag:"Línea Mary Kay",name:"Exfoliante Facial Mary Kay",meta:"88 ml · EEUU",price:28400},
+{cat:"Cuidado de la Piel",tag:"Línea Mary Kay",name:"Tónico Balanceador Mary Kay",meta:"147 ml · EEUU",price:28400},
+{cat:"Cuidado de la Piel",tag:"Línea Mary Kay",name:"Crema Facial Hidratante",meta:"85 g · EEUU · piel Normal a Seca",price:37200},
+{cat:"Cuidado de la Piel",tag:"Línea Mary Kay",name:"Crema Facial Matificante",meta:"85 g · EEUU · piel Combinada a Grasa",price:37200},
+{cat:"Cuidado de la Piel",tag:"Set · Línea Mary Kay",name:"Set Matificante Mary Kay",meta:"EEUU · piel Combinada a Grasa",price:112500},
+{cat:"Cuidado de la Piel",tag:"Set · Línea Mary Kay",name:"Set Hidratante Mary Kay",meta:"EEUU · piel Normal a Seca",price:112500},
+
+/* ---- TIMEWISE ---- */
+{cat:"Cuidado de la Piel",tag:"TimeWise",name:"Limpiador Facial 4 en 1 TimeWise",meta:"127 g · EEUU",price:40100},
+{cat:"Cuidado de la Piel",tag:"TimeWise",name:"Loción Facial Humectante con Antioxidantes TimeWise",meta:"88 ml · EEUU",price:51400},
+{cat:"Cuidado de la Piel",tag:"TimeWise",name:"Loción Facial Protectora de Día FPS 30 TimeWise",meta:"29 ml · EEUU · todo tipo de piel",price:47700},
+{cat:"Cuidado de la Piel",tag:"TimeWise",name:"Gel Facial de Recuperación Nocturna TimeWise",meta:"29 ml · EEUU",price:57300},
+{cat:"Cuidado de la Piel",tag:"TimeWise",name:"Crema para el Contorno de Ojos TimeWise",meta:"14 g · EEUU",price:36400},
+{cat:"Cuidado de la Piel",tag:"Set · TimeWise",name:"Set Milagroso Ideal TimeWise",meta:"EEUU · rutina de 3 pasos",price:176850,feat:true},
+{cat:"Cuidado de la Piel",tag:"Set · TimeWise",name:"Set Milagroso Avanzado TimeWise",meta:"EEUU · incluye contorno de ojos",price:209610,feat:true},
+{cat:"Cuidado de la Piel",tag:"Set · TimeWise",name:"Set Básico TimeWise",meta:"EEUU · rutina esencial",price:82350},
+{cat:"Cuidado de la Piel",tag:"Set · TimeWise",name:"Set AM/PM TimeWise",meta:"EEUU · día y noche",price:94500},
+
+/* ---- VOLU-FIRM / TIMEWISE REPAIR · pieles maduras ---- */
+{cat:"Cuidado de la Piel",tag:"Volu-Firm · Pieles Maduras",name:"Espuma Limpiadora Facial Volu-Firm",meta:"127 g · EEUU",price:52000},
+{cat:"Cuidado de la Piel",tag:"Volu-Firm · Pieles Maduras",name:"Loción Facial Efecto Reafirmante Volu-Firm",meta:"29 ml · EEUU",price:85000},
+{cat:"Cuidado de la Piel",tag:"Volu-Firm · Pieles Maduras",name:"Crema Facial de Día Efecto Reparador FPS 30 Volu-Firm",meta:"48 g · EEUU",price:85000},
+{cat:"Cuidado de la Piel",tag:"Volu-Firm · Pieles Maduras",name:"Crema de Acción Renovadora para Contorno de Ojos Volu-Firm",meta:"14 g · EEUU",price:57000},
+{cat:"Cuidado de la Piel",tag:"TimeWise Repair",name:"Gel Facial Efecto Peeling TimeWise Repair",meta:"48 g · EEUU",price:78000},
+
+/* ---- CLINICAL SOLUTIONS ---- */
+{cat:"Cuidado de la Piel",tag:"Clinical Solutions",name:"Loción Facial Restauradora de la Barrera de la Piel",meta:"29 ml · EEUU · Clinical Solutions",price:54000,feat:true},
+{cat:"Cuidado de la Piel",tag:"Clinical Solutions",name:"Crema con Efecto Tensor de Líneas de Expresión Dinámicas",meta:"15 ml · EEUU",price:58000},
+{cat:"Cuidado de la Piel",tag:"Clinical Solutions",name:"Concentrado Iluminador Ácido Ferúlico + Niacinamida",meta:"15 ml · EEUU · manchas oscuras",price:49000},
+{cat:"Cuidado de la Piel",tag:"Clinical Solutions",name:"Concentrado PHA + AHA Exfoliante",meta:"15 ml · EEUU · renovación",price:49000},
+{cat:"Cuidado de la Piel",tag:"Clinical Solutions",name:"Concentrado Vitamina C + Resveratrol",meta:"15 ml · EEUU · finas líneas",price:49000},
+{cat:"Cuidado de la Piel",tag:"Clinical Solutions",name:"Concentrado HA + Ceramidas para la Humectación",meta:"15 ml · EEUU · hidratación",price:49000},
+
+/* ---- SUPLEMENTARIOS / MASCARILLAS ---- */
+{cat:"Cuidado de la Piel",tag:"Suplementarios",name:"Desmaquillante de Ojos Libre de Aceite",meta:"110 ml · Canadá/Argentina",price:42500},
+{cat:"Cuidado de la Piel",tag:"Suplementarios",name:"Óleo Nutritivo Hidratante Mary Kay",meta:"29 ml · Francia",price:55600},
+{cat:"Cuidado de la Piel",tag:"Suplementarios",name:"Suero Regenerador C+E TimeWise",meta:"44 ml · Argentina",price:66800},
+{cat:"Cuidado de la Piel",tag:"Suplementarios",name:"Agua Micelar Mary Kay",meta:"147 ml · EEUU",price:34100},
+{cat:"Cuidado de la Piel",tag:"Suplementarios",name:"Loción Reafirmante Corporal TimeWise Body",meta:"236 ml · EEUU",price:53000},
+{cat:"Cuidado de la Piel",tag:"Set · Suplementarios",name:"Set de Microexfoliación Plus TW",meta:"Argentina · Refinador 70 g + Minimizador de Poros 29 ml",price:80100},
+{cat:"Cuidado de la Piel",tag:"Mascarillas",name:"Mascarilla Renovadora en Gel TimeWise",meta:"85 g · Arg./EEUU",price:31300},
+{cat:"Cuidado de la Piel",tag:"Mascarillas",name:"Mascarilla Facial de Limpieza Profunda con Carbón Clear Proof",meta:"114 g · Argentina/EEUU",price:32400},
+{cat:"Cuidado de la Piel",tag:"Mascarillas",name:"Mascarilla Hidratante en Crema Mary Kay",meta:"85 g · EEUU",price:33000},
+{cat:"Cuidado de la Piel",tag:"Suplementarios",name:"Refrescante Líquido Renovador TimeWise",meta:"147 ml · Argentina/EEUU",price:29700},
+{cat:"Cuidado de la Piel",tag:"Humectación Extra",name:"Crema de Noche Extra Emoliente",meta:"60 g · EEUU",price:22400},
+{cat:"Cuidado de la Piel",tag:"Humectación Extra",name:"Gel Refrescante para Párpados",meta:"11 g · EEUU",price:29400},
+{cat:"Cuidado de la Piel",tag:"Humectación Extra",name:"Crema Humectante Intensiva (piel seca)",meta:"51 g · EEUU",price:42000},
+{cat:"Cuidado de la Piel",tag:"Humectación Extra",name:"Gel Facial Hidratante Libre de Aceite (piel normal a grasa)",meta:"51 g · Argentina/EEUU",price:42000},
+
+/* ---- MAQUILLAJE · BASES ---- */
+{cat:"Maquillaje",tag:"Bases",name:"Base de Maquillaje Mate TimeWise 3D",meta:"30 ml · EEUU",price:27200,tones:"Varios tonos disponibles",note:"Precio con descuento aplicado"},
+{cat:"Maquillaje",tag:"Bases",name:"Base de Maquillaje Luminosa TimeWise 3D",meta:"30 ml · EEUU",price:27200,tones:"Varios tonos disponibles",note:"Precio con descuento aplicado"},
+{cat:"Maquillaje",tag:"Bases",name:"Crema Correctora con Color y FPS 15 Mary Kay",meta:"29 ml · Brasil/EEUU",price:30500,tones:"Light to Medium · Medium to Deep"},
+{cat:"Maquillaje",tag:"Bases",name:"Pre Base de Maquillaje con FPS 15 Mary Kay",meta:"29 ml · EEUU",price:33800},
+{cat:"Maquillaje",tag:"Bases",name:"Corrector Yellow",meta:"8,6 g · Brasil",price:23300},
+
+/* ---- MAQUILLAJE · OJOS ---- */
+{cat:"Maquillaje",tag:"Ojos",name:"Corrector Iluminador para Ojos Mary Kay",meta:"8 g · EEUU",price:24300},
+{cat:"Maquillaje",tag:"Ojos",name:"Corrector para Ojos Multi-Beneficios Mary Kay",meta:"8 g · EEUU",price:24800},
+{cat:"Maquillaje",tag:"Ojos · Cejas",name:"Gel Voluminizador para Cejas Mary Kay",meta:"4 g · Alemania",price:19300},
+{cat:"Maquillaje",tag:"Ojos · Cejas",name:"Gel Transparente para Cejas Mary Kay",meta:"3,5 g · Brasil",price:19300},
+{cat:"Maquillaje",tag:"Ojos · Cejas",name:"Lápiz Delineador para Cejas",meta:"0,09 g · Alemania",price:15800,tones:"Brunette · Dark Blonde"},
+{cat:"Maquillaje",tag:"Ojos",name:"Máscara de Pestañas Great Heights",meta:"8 g · EEUU · Negra",price:38000},
+{cat:"Maquillaje",tag:"Ojos",name:"Máscara Great Heights a Prueba de Agua",meta:"8 g · EEUU · Negra",price:38000},
+{cat:"Maquillaje",tag:"Ojos",name:"Máscara para Pestañas Lash Intensity",meta:"9 g · EEUU · Negra",price:38000},
+{cat:"Maquillaje",tag:"Ojos",name:"Máscara para Pestañas Máximo Desempeño",meta:"8 g · EEUU · Negra",price:36500},
+{cat:"Maquillaje",tag:"Ojos",name:"Máscara para Pestañas Lash Love Fanorama",meta:"8 g · EEUU/Brasil · Negra",price:36500},
+{cat:"Maquillaje",tag:"Ojos",name:"Máscara para Pestañas Lash Love Negra",meta:"8 g · EEUU/Brasil",price:32700},
+{cat:"Maquillaje",tag:"Ojos",name:"Delineador Líquido en Plumón a Prueba de Agua",meta:"1,5 g · EEUU · Intense Black",price:20400},
+{cat:"Maquillaje",tag:"Ojos",name:"Lápiz Delineador para Ojos a Prueba de Agua Mary Kay",meta:"0,28 g · Argentina",price:16200,tones:"Black · Brown"},
+{cat:"Maquillaje",tag:"Rostro · Polvos",name:"Polvo Suelto Traslúcido Mary Kay",meta:"11 g · EEUU",price:34300},
+{cat:"Maquillaje",tag:"Rostro · Polvos",name:"Polvos Fijadores con Acabado Sedoso",meta:"8 g · EEUU",price:26200,tones:"Light · Medium · Deep Beige"},
+
+/* ---- MAQUILLAJE · SOMBRAS Y ROSTRO ---- */
+{cat:"Maquillaje",tag:"Sombras",name:"Sombras Compactas Chromafusion Mary Kay",meta:"1,4 g · Italia",price:12500,tones:"Varios tonos disponibles"},
+{cat:"Maquillaje",tag:"Sombras",name:"Paleta de Sombras para Ojos Edición Limitada",meta:"12,8 g · EEUU",price:53000,feat:true},
+{cat:"Maquillaje",tag:"Rostro",name:"Iluminador en Polvo Efecto Bronceado (Medium Glow)",meta:"2,5 g · Canadá · Edición Limitada",price:28300},
+{cat:"Maquillaje",tag:"Rostro",name:"Iluminador para Rostro Chromafusion",meta:"5 g · EEUU · Glazed",price:14000},
+{cat:"Maquillaje",tag:"Rostro",name:"Rubores Chromafusion",meta:"5 g · EEUU",price:14000,tones:"Rosy Nude · Rogue Rose · Wineberry"},
+{cat:"Maquillaje",tag:"Rostro",name:"Polvo para Contorno de Rostro Chromafusion",meta:"5 g · EEUU · Latte",price:14000},
+{cat:"Maquillaje",tag:"Rostro",name:"Rubor en Gel-Crema Mary Kay Edición Limitada",meta:"10 g · Canadá",price:28000,tones:"Soft Buff · Coral Kiss · Pink Stars · Passionfruit"},
+
+/* ---- MAQUILLAJE · LABIOS ---- */
+{cat:"Maquillaje",tag:"Labios",name:"Lápices Labiales en Gel Semi Shine Mary Kay",meta:"3,6 g · EEUU",price:28500,tones:"Varios tonos disponibles"},
+{cat:"Maquillaje",tag:"Labios",name:"Lápices Labiales en Gel Semi Mate Mary Kay",meta:"3,6 g · EEUU",price:28500,tones:"Varios tonos disponibles"},
+{cat:"Maquillaje",tag:"Labios",name:"Lápices Labiales Hidratantes Supreme Mary Kay",meta:"3,3 g · EEUU",price:30400,tones:"Varios tonos disponibles"},
+{cat:"Maquillaje",tag:"Labios",name:"Brillo Labial Mary Kay Unlimited",meta:"3,4 g · EEUU",price:27000,tones:"Perlados · Cremosos · Luminosos"},
+{cat:"Maquillaje",tag:"Labios",name:"Lápiz Delineador para Labios a Prueba de Agua",meta:"0,28 g · Argentina",price:13770,tones:"Red · Rose · Beige Nude",note:"Precio con descuento aplicado"},
+
+/* ---- MARY KAY AT PLAY ---- */
+{cat:"Mary Kay At Play",tag:"At Play · Labios",name:"Lápiz Labial Líquido Mate At Play con Vit. E y Karité",meta:"6,5 g · Brasil",price:15980,tones:"Varios tonos disponibles",note:"Precio con descuento aplicado"},
+{cat:"Mary Kay At Play",tag:"At Play · Labios",name:"Lápices Labiales Mate Efecto Polvo At Play",meta:"2,5 g · México",price:17000,tones:"Varios tonos disponibles"},
+{cat:"Mary Kay At Play",tag:"At Play · Labios",name:"Bálsamo Labial At Play Edición Limitada",meta:"4,6 g · Brasil",price:18600,tones:"Mauve Love · Coral Love · Red Crush · Magenta Crush"},
+{cat:"Mary Kay At Play",tag:"At Play · Ojos",name:"Máscara para Pestañas a Prueba de Agua At Play",meta:"7 g · EEUU · Black",price:28000},
+{cat:"Mary Kay At Play",tag:"At Play · Ojos",name:"Sombra de Ojos + Primer At Play",meta:"12 g · Brasil",price:16000},
+{cat:"Mary Kay At Play",tag:"At Play · Ojos",name:"Dúo de Sombras en Polvo At Play Edición Limitada",meta:"2,5 g · Brasil",price:15600,tones:"Choco Espresso · Gold Star · Rosy Plum"},
+{cat:"Mary Kay At Play",tag:"At Play · Ojos",name:"Delineador Líquido para Ojos At Play",meta:"3 ml · Argentina · Black",price:19700},
+{cat:"Mary Kay At Play",tag:"At Play · Ojos",name:"Lápiz Delineador para Ojos At Play",meta:"1,2 g · Argentina",price:14300,tones:"Matte Black · Metallic Pink/Blue/Brown/Green/Purple"},
+{cat:"Mary Kay At Play",tag:"At Play · Cejas",name:"Dúo de Lápiz de Cejas At Play",meta:"0,96 g · Argentina",price:16900,tones:"Cool Blonde · True Brown"},
+{cat:"Mary Kay At Play",tag:"At Play · Bases",name:"Base de Maquillaje Líquida Mate At Play",meta:"29 ml · Brasil",price:25000,tones:"7 tonos: Light a Deep Tan"},
+{cat:"Mary Kay At Play",tag:"At Play · Rostro",name:"Dúo de Rubor At Play",meta:"5 g · México",price:26100,tones:"Coral Sky · Pink Shine"},
+{cat:"Mary Kay At Play",tag:"At Play · Rostro",name:"Dúo de Bronceador At Play",meta:"5 g · México · Desert Sunset",price:26100},
+{cat:"Mary Kay At Play",tag:"At Play · Rostro",name:"Crayón para el Contorno del Rostro At Play",meta:"México",price:19200,tones:"Get Sculpted 1 · Get Sculpted 2"},
+{cat:"Mary Kay At Play",tag:"At Play · Rostro",name:"Crayón Iluminador del Rostro At Play",meta:"México",price:19200,tones:"Rose Gold Glow"},
+
+/* ---- BROCHAS Y ACCESORIOS ---- */
+{cat:"Brochas y Accesorios",tag:"Brochas",name:"Set de Brochas con Estuche Mary Kay",meta:"China · 5 brochas + portacosméticos",price:106200,feat:true},
+{cat:"Brochas y Accesorios",tag:"Brochas",name:"Brocha para Polvos",meta:"China",price:32500},
+{cat:"Brochas y Accesorios",tag:"Brochas",name:"Brocha Oval para Base de Maquillaje",meta:"China",price:27500},
+{cat:"Brochas y Accesorios",tag:"Brochas",name:"Brocha para Rubor",meta:"China",price:24100},
+{cat:"Brochas y Accesorios",tag:"Brochas",name:"Brocha para Base de Maquillaje Líquida",meta:"China",price:20400},
+{cat:"Brochas y Accesorios",tag:"Brochas",name:"Brocha para Rubor Compacto",meta:"China",price:6500},
+{cat:"Brochas y Accesorios",tag:"Compactos",name:"Compacto Perfect Palette Mary Kay (vacío)",meta:"China",price:42500},
+{cat:"Brochas y Accesorios",tag:"Compactos",name:"Compacto Pettite Palette Mary Kay (vacío)",meta:"China",price:21000},
+{cat:"Brochas y Accesorios",tag:"Aplicadores",name:"Esponja para Maquillaje",meta:"China",price:14100},
+{cat:"Brochas y Accesorios",tag:"Aplicadores",name:"Esponja Cosmética x2",meta:"China",price:6600},
+
+/* ---- FRAGANCIAS FEMENINAS ---- */
+{cat:"Fragancias",tag:"Femenina",name:"Confidently You",meta:"50 ml · Eau de Parfum · EEUU",price:78500},
+{cat:"Fragancias",tag:"Femenina",name:"Belara",meta:"50 ml · Eau de Parfum · Argentina/EEUU",price:74200},
+{cat:"Fragancias",tag:"Femenina",name:"Dream Fearlessly",meta:"50 ml · Eau de Parfum · México",price:68700},
+{cat:"Fragancias",tag:"Femenina",name:"Live Fearlessly",meta:"50 ml · Eau de Parfum · México",price:68700},
+{cat:"Fragancias",tag:"Femenina",name:"Love Fearlessly",meta:"50 ml · Eau de Parfum · México",price:68700},
+{cat:"Fragancias",tag:"Femenina",name:"Mary Kay Embrace para Ella",meta:"60 ml · EDT · México",price:68100},
+{cat:"Fragancias",tag:"Femenina",name:"Pink Diamonds Intense",meta:"60 ml · EDP · México",price:67100},
+{cat:"Fragancias",tag:"Femenina",name:"Pink Diamonds",meta:"60 ml · EDP · México",price:67100},
+{cat:"Fragancias",tag:"Femenina",name:"Forever Diamonds",meta:"60 ml · EDP · México",price:67100},
+{cat:"Fragancias",tag:"Femenina",name:"Modern Charm",meta:"50 ml · EDP · México",price:67100},
+{cat:"Fragancias",tag:"Femenina",name:"Modern Charm Glam",meta:"50 ml · EDP · México",price:67100},
+{cat:"Fragancias",tag:"Femenina",name:"True Passion",meta:"60 ml · Eau de Toilette · México",price:57600},
+{cat:"Fragancias",tag:"Femenina",name:"True Passion L'Eau",meta:"60 ml · Eau de Toilette · México",price:57600},
+{cat:"Fragancias",tag:"Femenina",name:"Wish",meta:"60 ml · EDT · México",price:57600},
+{cat:"Fragancias",tag:"Femenina",name:"Mary Kay Joy Emotion Scent",meta:"50 ml · EDP · México",price:57000},
+{cat:"Fragancias",tag:"Femenina",name:"Mary Kay Garden Scent",meta:"50 ml · EDP · México",price:54500},
+{cat:"Fragancias",tag:"Femenina",name:"Mary Kay Velvet Scent",meta:"50 ml · EDP · México",price:54500},
+{cat:"Fragancias",tag:"Femenina",name:"Mary Kay Blush Scent",meta:"50 ml · EDP · México",price:54500},
+{cat:"Fragancias",tag:"Femenina",name:"Hello Brillant",meta:"50 ml · Eau de Toilette · México",price:50000},
+{cat:"Fragancias",tag:"Femenina",name:"Mary Kay At Play",meta:"50 ml · EDT · México",price:50000},
+{cat:"Fragancias",tag:"Femenina",name:"Mary Kay At Play Pink",meta:"50 ml · EDT · México",price:50000},
+
+/* ---- FRAGANCIAS MASCULINAS ---- */
+{cat:"Fragancias",tag:"Masculina",name:"True Optimism",meta:"50 ml · EDP · EEUU · ¡Lanzamiento!",price:75000,feat:true},
+{cat:"Fragancias",tag:"Masculina",name:"Authentic Hero",meta:"100 ml · EDT · México",price:73200},
+{cat:"Fragancias",tag:"Masculina",name:"Authentic Hero Bold",meta:"100 ml · EDT · México",price:73200},
+{cat:"Fragancias",tag:"Masculina",name:"Authentic Hero Style",meta:"100 ml · EDT · México",price:73200},
+{cat:"Fragancias",tag:"Masculina",name:"Upscale Black",meta:"75 ml · EDT · México",price:69600},
+{cat:"Fragancias",tag:"Masculina",name:"Upscale Gentleman",meta:"75 ml · EDP · México",price:69600},
+{cat:"Fragancias",tag:"Masculina",name:"Magnetic Passion",meta:"75 ml · EDP · Argentina/México",price:69600},
+{cat:"Fragancias",tag:"Masculina",name:"Magnetic Passion Edge",meta:"75 ml · EDP · Argentina/México",price:69600},
+{cat:"Fragancias",tag:"Masculina",name:"Mary Kay Embrace para Él",meta:"60 ml · EDT · México",price:68100},
+
+/* ---- CUIDADO CORPORAL ---- */
+{cat:"Cuidado Corporal",tag:"Manos y Cuerpo",name:"Set Manos de Seda Satin Hands (Té Blanco y Cítricos)",meta:"EEUU · 3 pasos",price:72600,feat:true},
+{cat:"Cuidado Corporal",tag:"Solar",name:"Protector Solar Mary Kay rostro y cuerpo FPS 50+",meta:"118 ml · EEUU",price:58400},
+{cat:"Cuidado Corporal",tag:"Labios",name:"Set Satin Lips de Mary Kay",meta:"EEUU · Exfoliante + Humectante",price:32940},
+{cat:"Cuidado Corporal",tag:"Cuerpo",name:"Loción Corporal Mora & Vainilla",meta:"200 ml · EEUU",price:30000},
+{cat:"Cuidado Corporal",tag:"Cuerpo",name:"Gel para Ducha Mora & Vainilla",meta:"200 ml · EEUU",price:30000},
+{cat:"Cuidado Corporal",tag:"Cuerpo",name:"Loción Corporal Manzana & Almendra",meta:"200 ml · EEUU",price:30000},
+{cat:"Cuidado Corporal",tag:"Cuerpo",name:"Gel para Ducha Manzana & Almendra",meta:"200 ml · EEUU",price:30000},
+{cat:"Cuidado Corporal",tag:"Manos y Cuerpo",name:"Crema para Manos con Karité",meta:"85 g · Argentina",price:20000},
+{cat:"Cuidado Corporal",tag:"Manos y Cuerpo",name:"Crema para Manos Lavanda y Coco Edición Limitada",meta:"73 ml · EEUU",price:22200},
+{cat:"Cuidado Corporal",tag:"Manos y Cuerpo",name:"Crema Energizante para Pies y Piernas",meta:"88 ml · EEUU",price:19200},
+{cat:"Cuidado Corporal",tag:"Labios",name:"Mascarilla Exfoliante para Labios con Karité Satin Lips",meta:"8 g",price:18300},
+{cat:"Cuidado Corporal",tag:"Labios",name:"Crema Humectante para Labios con Karité Satin Lips",meta:"8 g",price:18300}
+];
+
+/* ====== UTILIDADES ====== */
+const fmt = n => "$" + n.toLocaleString("es-AR");
+const waBase = txt => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(txt)}`;
+/* Escapa caracteres especiales para evitar romper el HTML / inyección al renderizar */
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const CAT_ORDER = ["Cuidado de la Piel","Maquillaje","Mary Kay At Play","Fragancias","Cuidado Corporal","Brochas y Accesorios"];
+const cart = {}; // {idx: qty}
+
+/* ====== ENLACES WHATSAPP GENERALES ====== */
+const generalMsg = `¡Hola ${SELLER}! Te escribo desde tu catálogo online de Mary Kay. Quería hacerte una consulta 😊`;
+["topWa","floatWa","footWa"].forEach(id=>{document.getElementById(id).href = waBase(generalMsg);});
+
+/* ====== RENDER CHIPS ====== */
+const chipsEl = document.getElementById("chips");
+let activeCat = "Todos";
+const cats = ["Todos", ...CAT_ORDER];
+cats.forEach(c=>{
+  const b=document.createElement("button");
+  b.className="chip"+(c==="Todos"?" active":"");
+  b.textContent=c;
+  b.onclick=()=>{activeCat=c;[...chipsEl.children].forEach(x=>x.classList.remove("active"));b.classList.add("active");render();};
+  chipsEl.appendChild(b);
+});
+// footer categories
+const footCats=document.getElementById("footCats");
+CAT_ORDER.forEach(c=>{const a=document.createElement("a");a.textContent=c;a.onclick=()=>{activeCat=c;[...chipsEl.children].forEach(x=>x.classList.toggle("active",x.textContent===c));document.getElementById('catalogo').scrollIntoView();render();};footCats.appendChild(a);});
+
+/* ====== RENDER CATALOG ====== */
+const catalogEl = document.getElementById("catalog");
+const searchEl = document.getElementById("search");
+searchEl.addEventListener("input", render);
+
+function thumb(p){
+  if(p.img) return `<div class="thumb"><img src="${esc(p.img)}" alt="${esc(p.name)}" loading="lazy">${p.feat?'<span class="flag">Destacado</span>':''}</div>`;
+  const initial = (p.name.match(/[A-Za-zÁÉÍÓÚÑ]/)||["M"])[0].toUpperCase();
+  return `<div class="thumb">
+    <div class="thumb-fallback"><span class="mono">${esc(initial)}</span><small>${esc(p.tag)}</small></div>
+    ${p.feat?'<span class="flag">Destacado</span>':''}
+  </div>`;
+}
+
+function card(p, idx){
+  return `<article class="card">
+    ${thumb(p)}
+    <div class="card-body">
+      <span class="tag">${esc(p.tag)}</span>
+      <h3>${esc(p.name)}</h3>
+      <p class="meta">${esc(p.meta)}</p>
+      ${p.tones?`<p class="tones">${esc(p.tones)}</p>`:''}
+      <div class="price-row">
+        <span class="price">${fmt(p.price)}</span>
+        ${p.note?`<span class="price-note">${esc(p.note)}</span>`:''}
+      </div>
+      <div class="card-actions">
+        <button class="add-btn" data-add="${idx}">＋ Agregar al pedido</button>
+        <a class="ask-btn" target="_blank" rel="noopener"
+           href="${waBase(`¡Hola ${SELLER}! Quería consultar por: ${p.name} (${fmt(p.price)}). ¿Está disponible?`)}"
+           title="Consultar este producto">
+          <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24z"/></svg>
+        </a>
+      </div>
+    </div>
+  </article>`;
+}
+
+function render(){
+  const q = searchEl.value.trim().toLowerCase();
+  const visible = PRODUCTS.map((p,i)=>({p,i}))
+    .filter(({p})=> (activeCat==="Todos"||p.cat===activeCat))
+    .filter(({p})=> !q || (p.name+" "+p.tag+" "+p.meta+" "+(p.tones||"")).toLowerCase().includes(q));
+
+  if(visible.length===0){ catalogEl.innerHTML=`<p class="no-results">No encontramos productos con esa búsqueda 🌸</p>`; return; }
+
+  let html="";
+  const order = activeCat==="Todos" ? CAT_ORDER : [activeCat];
+  order.forEach(cat=>{
+    const items = visible.filter(({p})=>p.cat===cat);
+    if(items.length===0) return;
+    html += `<section class="cat-block">
+      <div class="cat-head"><h2>${cat}</h2><span class="count">${items.length} productos</span><span class="rule"></span></div>
+      <div class="grid">${items.map(({p,i})=>card(p,i)).join("")}</div>
+    </section>`;
+  });
+  catalogEl.innerHTML = html;
+
+  catalogEl.querySelectorAll("[data-add]").forEach(btn=>{
+    btn.onclick=()=>{
+      const idx=+btn.dataset.add; cart[idx]=(cart[idx]||0)+1;
+      btn.textContent="✓ Agregado"; btn.classList.add("added");
+      setTimeout(()=>{btn.textContent="＋ Agregar al pedido";btn.classList.remove("added");},1100);
+      updateCart();
+    };
+  });
+}
+
+/* ====== CARRITO / PEDIDO ====== */
+const fab=document.getElementById("orderFab"), badge=document.getElementById("fabBadge");
+const overlay=document.getElementById("overlay"), drawer=document.getElementById("drawer");
+const drawerBody=document.getElementById("drawerBody"), totalEl=document.getElementById("total");
+
+function cartCount(){return Object.values(cart).reduce((a,b)=>a+b,0);}
+function cartTotal(){return Object.entries(cart).reduce((s,[i,q])=>s+PRODUCTS[i].price*q,0);}
+
+function updateCart(){
+  const count=cartCount();
+  badge.textContent=count;
+  fab.classList.toggle("show", count>0);
+  totalEl.textContent=fmt(cartTotal());
+  if(count===0){ drawerBody.innerHTML=`<p class="empty-cart">Todavía no agregaste productos.<br>Explorá el catálogo y sumá tus favoritos 🌸</p>`; return; }
+  drawerBody.innerHTML = Object.entries(cart).map(([i,q])=>{
+    const p=PRODUCTS[i];
+    return `<div class="line-item">
+      <div class="li-info">
+        <h4>${esc(p.name)}</h4>
+        <p class="li-meta">${esc(p.tag)} · ${esc(p.meta)}</p>
+        <div class="li-controls">
+          <button class="qty-btn" data-dec="${i}">−</button>
+          <span class="qty-num">${q}</span>
+          <button class="qty-btn" data-inc="${i}">＋</button>
+        </div>
+      </div>
+      <div class="li-right">
+        <span class="li-price">${fmt(p.price*q)}</span>
+        <button class="li-remove" data-rm="${i}">quitar</button>
+      </div>
+    </div>`;
+  }).join("");
+  drawerBody.querySelectorAll("[data-inc]").forEach(b=>b.onclick=()=>{cart[b.dataset.inc]++;updateCart();});
+  drawerBody.querySelectorAll("[data-dec]").forEach(b=>b.onclick=()=>{const i=b.dataset.dec;cart[i]--;if(cart[i]<=0)delete cart[i];updateCart();});
+  drawerBody.querySelectorAll("[data-rm]").forEach(b=>b.onclick=()=>{delete cart[b.dataset.rm];updateCart();});
+}
+
+function openDrawer(){overlay.classList.add("show");drawer.classList.add("show");}
+function closeDrawer(){overlay.classList.remove("show");drawer.classList.remove("show");}
+fab.onclick=openDrawer;
+overlay.onclick=closeDrawer;
+document.getElementById("closeDrawer").onclick=closeDrawer;
+
+/* ====== ENVIAR PEDIDO ====== */
+document.getElementById("sendOrder").onclick=()=>{
+  if(cartCount()===0){alert("Agregá al menos un producto a tu pedido 🌸");return;}
+  let msg=`¡Hola ${SELLER}! 🌸 Quiero hacer este pedido desde tu catálogo Mary Kay:\n\n`;
+  Object.entries(cart).forEach(([i,q])=>{
+    const p=PRODUCTS[i];
+    msg+=`• ${q} × ${p.name} (${p.meta}) — ${fmt(p.price*q)}\n`;
+  });
+  msg+=`\nTotal estimado: ${fmt(cartTotal())}\n\n¿Me confirmás disponibilidad y cómo coordinamos el pago y la entrega? ¡Gracias!`;
+  window.open(waBase(msg),"_blank","noopener");
+};
+
+/* ====== INIT ====== */
+render();
+updateCart();
+</script>
+</body>
+</html>
