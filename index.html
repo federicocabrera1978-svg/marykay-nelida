@@ -3601,7 +3601,7 @@ function render(){
     const items = visible.filter(({p})=>p.cat===cat);
     if(items.length===0) return;
     html += `<section class="cat-block">
-      <div class="cat-head"><h2>${cat}</h2><span class="count">${items.length} productos</span><span class="rule"></span></div>
+      <div class="cat-head"><h2>${esc(cat)}</h2><span class="count">${items.length} productos</span><span class="rule"></span></div>
       <div class="grid">${items.map(({p,i})=>card(p,i)).join("")}</div>
     </section>`;
   });
