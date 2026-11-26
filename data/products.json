@@ -6,7 +6,8 @@
 "meta": "127 g · EEUU · piel Normal a Seca",
 "price": 35600,
 "id": "limpiador-facial-hidratante",
-"sort": 10
+"sort": 10,
+"img": "img/p/limpiador-facial-hidratante.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -15,7 +16,8 @@
 "meta": "127 g · EEUU · piel Combinada a Grasa",
 "price": 35600,
 "id": "limpiador-facial-matificante",
-"sort": 20
+"sort": 20,
+"img": "img/p/limpiador-facial-matificante.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -24,7 +26,8 @@
 "meta": "88 ml · EEUU",
 "price": 33200,
 "id": "exfoliante-facial-mary-kay",
-"sort": 30
+"sort": 30,
+"img": "img/p/exfoliante-facial-mary-kay.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -33,7 +36,8 @@
 "meta": "147 ml · EEUU",
 "price": 33200,
 "id": "tonico-balanceador-mary-kay",
-"sort": 40
+"sort": 40,
+"img": "img/p/tonico-balanceador-mary-kay.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -42,7 +46,8 @@
 "meta": "85 g · EEUU · piel Normal a Seca",
 "price": 43400,
 "id": "crema-facial-hidratante",
-"sort": 50
+"sort": 50,
+"img": "img/p/crema-facial-hidratante.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -51,7 +56,8 @@
 "meta": "85 g · EEUU · piel Combinada a Grasa",
 "price": 43400,
 "id": "crema-facial-matificante",
-"sort": 60
+"sort": 60,
+"img": "img/p/crema-facial-matificante.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -60,7 +66,8 @@
 "meta": "EEUU · piel Combinada a Grasa",
 "price": 130860,
 "id": "set-matificante-mary-kay",
-"sort": 70
+"sort": 70,
+"img": "img/p/set-matificante-mary-kay.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -69,7 +76,8 @@
 "meta": "EEUU · piel Normal a Seca",
 "price": 130860,
 "id": "set-hidratante-mary-kay",
-"sort": 80
+"sort": 80,
+"img": "img/p/set-hidratante-mary-kay.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -78,7 +86,8 @@
 "meta": "127 g · EEUU",
 "price": 46800,
 "id": "limpiador-facial-4-en-1-timewise",
-"sort": 90
+"sort": 90,
+"img": "img/p/limpiador-facial-4-en-1-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -87,7 +96,8 @@
 "meta": "88 ml · EEUU",
 "price": 60000,
 "id": "locion-facial-humectante-con-antioxidantes-timewise",
-"sort": 100
+"sort": 100,
+"img": "img/p/locion-facial-humectante-con-antioxidantes-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -96,7 +106,8 @@
 "meta": "29 ml · EEUU",
 "price": 55600,
 "id": "locion-facial-protectora-de-dia-fps-30-timewise",
-"sort": 110
+"sort": 110,
+"img": "img/p/locion-facial-protectora-de-dia-fps-30-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -105,7 +116,8 @@
 "meta": "29 ml · EEUU",
 "price": 66900,
 "id": "gel-facial-de-recuperacion-nocturna-timewise",
-"sort": 120
+"sort": 120,
+"img": "img/p/gel-facial-de-recuperacion-nocturna-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -114,7 +126,8 @@
 "meta": "14 g · EEUU",
 "price": 42400,
 "id": "crema-para-el-contorno-de-ojos-timewise",
-"sort": 130
+"sort": 130,
+"img": "img/p/crema-para-el-contorno-de-ojos-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -124,7 +137,8 @@
 "price": 206370,
 "feat": true,
 "id": "set-milagroso-ideal-timewise",
-"sort": 140
+"sort": 140,
+"img": "img/p/set-milagroso-ideal-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -134,7 +148,8 @@
 "price": 244530,
 "feat": true,
 "id": "set-milagroso-avanzado-timewise",
-"sort": 150
+"sort": 150,
+"img": "img/p/set-milagroso-avanzado-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -143,7 +158,8 @@
 "meta": "EEUU",
 "price": 96120,
 "id": "set-basico-timewise",
-"sort": 160
+"sort": 160,
+"img": "img/p/set-basico-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -152,7 +168,8 @@
 "meta": "EEUU",
 "price": 110250,
 "id": "set-am-pm-timewise",
-"sort": 170
+"sort": 170,
+"img": "img/p/set-am-pm-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -161,7 +178,8 @@
 "meta": "127 g · EEUU",
 "price": 61600,
 "id": "espuma-limpiadora-facial-volu-firm",
-"sort": 180
+"sort": 180,
+"img": "img/p/espuma-limpiadora-facial-volu-firm.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -170,7 +188,8 @@
 "meta": "29 ml · EEUU",
 "price": 99400,
 "id": "locion-facial-efecto-reafirmante-volu-firm",
-"sort": 190
+"sort": 190,
+"img": "img/p/locion-facial-efecto-reafirmante-volu-firm.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -179,7 +198,8 @@
 "meta": "48 g · EEUU",
 "price": 99400,
 "id": "crema-facial-de-dia-efecto-reparador-fps-30-volu-firm",
-"sort": 200
+"sort": 200,
+"img": "img/p/crema-facial-de-dia-efecto-reparador-fps-30-volu-firm.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -188,7 +208,8 @@
 "meta": "14 g · EEUU",
 "price": 67000,
 "id": "crema-de-accion-renovadora-para-contorno-de-ojos-volu-firm",
-"sort": 210
+"sort": 210,
+"img": "img/p/crema-de-accion-renovadora-para-contorno-de-ojos-volu-firm.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -197,7 +218,8 @@
 "meta": "48 g · EEUU",
 "price": 90900,
 "id": "gel-facial-efecto-peeling-timewise-repair",
-"sort": 220
+"sort": 220,
+"img": "img/p/gel-facial-efecto-peeling-timewise-repair.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -207,7 +229,8 @@
 "price": 64000,
 "feat": true,
 "id": "locion-facial-restauradora-de-la-barrera-de-la-piel",
-"sort": 230
+"sort": 230,
+"img": "img/p/locion-facial-restauradora-de-la-barrera-de-la-piel.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -216,7 +239,8 @@
 "meta": "15 ml · EEUU",
 "price": 68700,
 "id": "crema-con-efecto-tensor-de-lineas-de-expresion-dinamicas",
-"sort": 240
+"sort": 240,
+"img": "img/p/crema-con-efecto-tensor-de-lineas-de-expresion-dinamicas.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -225,7 +249,8 @@
 "meta": "15 ml · EEUU",
 "price": 58200,
 "id": "concentrado-iluminador-acido-ferulico-niacinamida",
-"sort": 250
+"sort": 250,
+"img": "img/p/concentrado-iluminador-acido-ferulico-niacinamida.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -234,7 +259,8 @@
 "meta": "15 ml · EEUU",
 "price": 58200,
 "id": "concentrado-pha-aha-exfoliante",
-"sort": 260
+"sort": 260,
+"img": "img/p/concentrado-pha-aha-exfoliante.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -243,7 +269,8 @@
 "meta": "15 ml · EEUU",
 "price": 58200,
 "id": "concentrado-vitamina-c-resveratrol",
-"sort": 270
+"sort": 270,
+"img": "img/p/concentrado-vitamina-c-resveratrol.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -252,7 +279,8 @@
 "meta": "15 ml · EEUU",
 "price": 58200,
 "id": "concentrado-ha-ceramidas-para-la-humectacion",
-"sort": 280
+"sort": 280,
+"img": "img/p/concentrado-ha-ceramidas-para-la-humectacion.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -261,7 +289,8 @@
 "meta": "110 ml · Canadá o Argentina",
 "price": 48600,
 "id": "desmaquillante-de-ojos-libre-de-aceite",
-"sort": 290
+"sort": 290,
+"img": "img/p/desmaquillante-de-ojos-libre-de-aceite.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -270,7 +299,8 @@
 "meta": "29 ml · Francia",
 "price": 64800,
 "id": "oleo-nutritivo-hidratante-mary-kay",
-"sort": 300
+"sort": 300,
+"img": "img/p/oleo-nutritivo-hidratante-mary-kay.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -279,7 +309,8 @@
 "meta": "44 ml · Argentina",
 "price": 77900,
 "id": "suero-regenerador-c-e-timewise",
-"sort": 310
+"sort": 310,
+"img": "img/p/suero-regenerador-c-e-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -288,7 +319,8 @@
 "meta": "147 ml · EEUU",
 "price": 39600,
 "id": "agua-micelar-mary-kay",
-"sort": 320
+"sort": 320,
+"img": "img/p/agua-micelar-mary-kay.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -297,7 +329,8 @@
 "meta": "Argentina · Refinador 70 g + Minimizador de Poros 29 ml",
 "price": 99900,
 "id": "set-de-microexfoliacion-plus-tw",
-"sort": 330
+"sort": 330,
+"img": "img/p/set-de-microexfoliacion-plus-tw.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -306,7 +339,8 @@
 "meta": "85 g · Arg./EEUU",
 "price": 31300,
 "id": "mascarilla-renovadora-en-gel-timewise",
-"sort": 340
+"sort": 340,
+"img": "img/p/mascarilla-renovadora-en-gel-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -315,7 +349,8 @@
 "meta": "114 g · Argentina o EEUU",
 "price": 37800,
 "id": "mascarilla-facial-de-limpieza-profunda-con-carbon-clear-proof",
-"sort": 350
+"sort": 350,
+"img": "img/p/mascarilla-facial-de-limpieza-profunda-con-carbon-clear-proof.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -324,7 +359,8 @@
 "meta": "85 g · EEUU",
 "price": 38600,
 "id": "mascarilla-hidratante-en-crema-mary-kay",
-"sort": 360
+"sort": 360,
+"img": "img/p/mascarilla-hidratante-en-crema-mary-kay.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -333,7 +369,8 @@
 "meta": "147 ml · Argentina o EEUU",
 "price": 34700,
 "id": "refrescante-liquido-renovador-timewise",
-"sort": 370
+"sort": 370,
+"img": "img/p/refrescante-liquido-renovador-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -342,7 +379,8 @@
 "meta": "60 g · EEUU",
 "price": 22400,
 "id": "crema-de-noche-extra-emoliente",
-"sort": 380
+"sort": 380,
+"img": "img/p/crema-de-noche-extra-emoliente.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -351,7 +389,8 @@
 "meta": "11 g · EEUU",
 "price": 34300,
 "id": "gel-refrescante-para-parpados",
-"sort": 390
+"sort": 390,
+"img": "img/p/gel-refrescante-para-parpados.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -360,7 +399,8 @@
 "meta": "51 g · EEUU",
 "price": 42000,
 "id": "crema-humectante-intensiva-piel-seca",
-"sort": 400
+"sort": 400,
+"img": "img/p/crema-humectante-intensiva-piel-seca.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -369,7 +409,8 @@
 "meta": "51 g · Argentina o EEUU",
 "price": 50000,
 "id": "gel-facial-hidratante-libre-de-aceite-piel-normal-a-grasa",
-"sort": 410
+"sort": 410,
+"img": "img/p/gel-facial-hidratante-libre-de-aceite-piel-normal-a-grasa.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -426,7 +467,8 @@
 "price": 99400,
 "isNew": true,
 "id": "crema-facial-nocturna-efecto-reparador-volu-firm",
-"sort": 460
+"sort": 460,
+"img": "img/p/crema-facial-nocturna-efecto-reparador-volu-firm.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -436,7 +478,8 @@
 "price": 55500,
 "isNew": true,
 "id": "microexfoliante-refinador-timewise",
-"sort": 470
+"sort": 470,
+"img": "img/p/microexfoliante-refinador-timewise.webp"
 },
 {
 "cat": "Cuidado de la Piel",
@@ -446,7 +489,8 @@
 "price": 55500,
 "isNew": true,
 "id": "minimizador-de-poros-timewise",
-"sort": 480
+"sort": 480,
+"img": "img/p/minimizador-de-poros-timewise.webp"
 },
 {
 "cat": "Maquillaje",
@@ -457,7 +501,8 @@
 "tones": "Varios tonos disponibles",
 "note": "Precio con descuento aplicado",
 "id": "base-de-maquillaje-mate-timewise-3d-version-anterior",
-"sort": 490
+"sort": 490,
+"img": "img/p/base-de-maquillaje-mate-timewise-3d-version-anterior.webp"
 },
 {
 "cat": "Maquillaje",
@@ -468,7 +513,8 @@
 "tones": "Varios tonos disponibles",
 "note": "Precio con descuento aplicado",
 "id": "base-de-maquillaje-luminosa-timewise-3d-version-anterior",
-"sort": 500
+"sort": 500,
+"img": "img/p/base-de-maquillaje-luminosa-timewise-3d-version-anterior.webp"
 },
 {
 "cat": "Maquillaje",
@@ -478,7 +524,8 @@
 "price": 35700,
 "tones": "Light to Medium · Medium to Deep",
 "id": "crema-correctora-con-color-y-fps-15-mary-kay",
-"sort": 510
+"sort": 510,
+"img": "img/p/crema-correctora-con-color-y-fps-15-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -487,7 +534,8 @@
 "meta": "29 ml / 24 g · EEUU",
 "price": 37000,
 "id": "pre-base-de-maquillaje-con-fps-15-mary-kay",
-"sort": 520
+"sort": 520,
+"img": "img/p/pre-base-de-maquillaje-con-fps-15-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -496,7 +544,8 @@
 "meta": "8,5 g · Brasil",
 "price": 28000,
 "id": "corrector-yellow",
-"sort": 530
+"sort": 530,
+"img": "img/p/corrector-yellow.webp"
 },
 {
 "cat": "Maquillaje",
@@ -505,7 +554,8 @@
 "meta": "8 g · EEUU",
 "price": 28000,
 "id": "corrector-iluminador-para-ojos-mary-kay",
-"sort": 540
+"sort": 540,
+"img": "img/p/corrector-iluminador-para-ojos-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -514,7 +564,8 @@
 "meta": "8 g · EEUU",
 "price": 28000,
 "id": "corrector-para-rostro-multi-beneficios-mary-kay",
-"sort": 550
+"sort": 550,
+"img": "img/p/corrector-para-rostro-multi-beneficios-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -523,7 +574,8 @@
 "meta": "4 g · Alemania",
 "price": 22700,
 "id": "gel-voluminizador-para-cejas-mary-kay",
-"sort": 560
+"sort": 560,
+"img": "img/p/gel-voluminizador-para-cejas-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -532,7 +584,8 @@
 "meta": "3,5 g · Brasil",
 "price": 22700,
 "id": "gel-transparente-para-cejas-mary-kay",
-"sort": 570
+"sort": 570,
+"img": "img/p/gel-transparente-para-cejas-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -542,7 +595,8 @@
 "price": 18900,
 "tones": "Brunette · Dark Blonde",
 "id": "lapiz-delineador-para-cejas",
-"sort": 580
+"sort": 580,
+"img": "img/p/lapiz-delineador-para-cejas.webp"
 },
 {
 "cat": "Maquillaje",
@@ -551,7 +605,8 @@
 "meta": "8 g · EEUU",
 "price": 44800,
 "id": "mascara-de-pestanas-great-heights",
-"sort": 590
+"sort": 590,
+"img": "img/p/mascara-de-pestanas-great-heights.webp"
 },
 {
 "cat": "Maquillaje",
@@ -560,7 +615,8 @@
 "meta": "8 g · EEUU",
 "price": 44800,
 "id": "mascara-great-heights-a-prueba-de-agua",
-"sort": 600
+"sort": 600,
+"img": "img/p/mascara-great-heights-a-prueba-de-agua.webp"
 },
 {
 "cat": "Maquillaje",
@@ -569,7 +625,8 @@
 "meta": "9 g · EEUU",
 "price": 42700,
 "id": "mascara-para-pestanas-lash-intensity",
-"sort": 610
+"sort": 610,
+"img": "img/p/mascara-para-pestanas-lash-intensity.webp"
 },
 {
 "cat": "Maquillaje",
@@ -578,7 +635,8 @@
 "meta": "8 g · EEUU",
 "price": 42700,
 "id": "mascara-para-pestanas-maximo-desempeno",
-"sort": 620
+"sort": 620,
+"img": "img/p/mascara-para-pestanas-maximo-desempeno.webp"
 },
 {
 "cat": "Maquillaje",
@@ -587,7 +645,8 @@
 "meta": "8 g · EEUU",
 "price": 42700,
 "id": "mascara-para-pestanas-lash-love-fanorama",
-"sort": 630
+"sort": 630,
+"img": "img/p/mascara-para-pestanas-lash-love-fanorama.webp"
 },
 {
 "cat": "Maquillaje",
@@ -596,7 +655,8 @@
 "meta": "8 g · EEUU o Brasil",
 "price": 38400,
 "id": "mascara-para-pestanas-lash-love-negra",
-"sort": 640
+"sort": 640,
+"img": "img/p/mascara-para-pestanas-lash-love-negra.webp"
 },
 {
 "cat": "Maquillaje",
@@ -605,7 +665,8 @@
 "meta": "1,5 g · EEUU",
 "price": 24300,
 "id": "delineador-liquido-en-plumon-a-prueba-de-agua",
-"sort": 650
+"sort": 650,
+"img": "img/p/delineador-liquido-en-plumon-a-prueba-de-agua.webp"
 },
 {
 "cat": "Maquillaje",
@@ -615,7 +676,8 @@
 "price": 18900,
 "tones": "Black · Brown",
 "id": "lapiz-delineador-para-ojos-a-prueba-de-agua-mary-kay",
-"sort": 660
+"sort": 660,
+"img": "img/p/lapiz-delineador-para-ojos-a-prueba-de-agua-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -624,7 +686,8 @@
 "meta": "11 g · EEUU",
 "price": 39900,
 "id": "polvo-suelto-traslucido-mary-kay",
-"sort": 670
+"sort": 670,
+"img": "img/p/polvo-suelto-traslucido-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -634,7 +697,8 @@
 "price": 30600,
 "tones": "Light · Medium · Deep Beige",
 "id": "polvos-fijadores-con-acabado-sedoso",
-"sort": 680
+"sort": 680,
+"img": "img/p/polvos-fijadores-con-acabado-sedoso.webp"
 },
 {
 "cat": "Maquillaje",
@@ -645,7 +709,8 @@
 "tones": "Varios tonos disponibles",
 "note": "Precio con descuento aplicado",
 "id": "sombras-compactas-chromafusion-mary-kay",
-"sort": 690
+"sort": 690,
+"img": "img/p/sombras-compactas-chromafusion-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -655,7 +720,8 @@
 "price": 61900,
 "feat": true,
 "id": "paleta-de-sombras-para-ojos-edicion-limitada",
-"sort": 700
+"sort": 700,
+"img": "img/p/paleta-de-sombras-para-ojos-edicion-limitada.webp"
 },
 {
 "cat": "Maquillaje",
@@ -664,7 +730,8 @@
 "meta": "2,5 g · Canadá · Edición Limitada",
 "price": 33000,
 "id": "iluminador-en-polvo-efecto-bronceado-medium-glow",
-"sort": 710
+"sort": 710,
+"img": "img/p/iluminador-en-polvo-efecto-bronceado-medium-glow.webp"
 },
 {
 "cat": "Maquillaje",
@@ -673,7 +740,8 @@
 "meta": "5 g · EEUU",
 "price": 16300,
 "id": "iluminador-para-rostro-chromafusion",
-"sort": 720
+"sort": 720,
+"img": "img/p/iluminador-para-rostro-chromafusion.webp"
 },
 {
 "cat": "Maquillaje",
@@ -683,7 +751,8 @@
 "price": 16300,
 "tones": "Rosy Nude · Rogue Rose · Wineberry",
 "id": "rubores-chromafusion",
-"sort": 730
+"sort": 730,
+"img": "img/p/rubores-chromafusion.webp"
 },
 {
 "cat": "Maquillaje",
@@ -692,7 +761,8 @@
 "meta": "5 g · EEUU",
 "price": 16300,
 "id": "polvo-para-contorno-de-rostro-chromafusion",
-"sort": 740
+"sort": 740,
+"img": "img/p/polvo-para-contorno-de-rostro-chromafusion.webp"
 },
 {
 "cat": "Maquillaje",
@@ -702,7 +772,8 @@
 "price": 32600,
 "tones": "Soft Buff · Coral Kiss · Pink Stars · Passionfruit",
 "id": "rubor-en-gel-crema-mary-kay-edicion-limitada",
-"sort": 750
+"sort": 750,
+"img": "img/p/rubor-en-gel-crema-mary-kay-edicion-limitada.webp"
 },
 {
 "cat": "Maquillaje",
@@ -712,7 +783,8 @@
 "price": 33500,
 "tones": "Varios tonos disponibles",
 "id": "lapices-labiales-en-gel-semi-shine-mary-kay",
-"sort": 760
+"sort": 760,
+"img": "img/p/lapices-labiales-en-gel-semi-shine-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -722,7 +794,8 @@
 "price": 33500,
 "tones": "Varios tonos disponibles",
 "id": "lapices-labiales-en-gel-semi-mate-mary-kay",
-"sort": 770
+"sort": 770,
+"img": "img/p/lapices-labiales-en-gel-semi-mate-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -732,7 +805,8 @@
 "price": 36200,
 "tones": "Varios tonos disponibles",
 "id": "lapices-labiales-hidratantes-supreme-mary-kay",
-"sort": 780
+"sort": 780,
+"img": "img/p/lapices-labiales-hidratantes-supreme-mary-kay.webp"
 },
 {
 "cat": "Maquillaje",
@@ -742,7 +816,8 @@
 "price": 30600,
 "tones": "Perlados · Cremosos · Luminosos",
 "id": "brillo-labial-mary-kay-unlimited",
-"sort": 790
+"sort": 790,
+"img": "img/p/brillo-labial-mary-kay-unlimited.webp"
 },
 {
 "cat": "Maquillaje",
@@ -752,7 +827,8 @@
 "price": 18900,
 "tones": "Red · Rose · Beige Nude",
 "id": "lapiz-delineador-para-labios-a-prueba-de-agua",
-"sort": 800
+"sort": 800,
+"img": "img/p/lapiz-delineador-para-labios-a-prueba-de-agua.webp"
 },
 {
 "cat": "Maquillaje",
@@ -762,7 +838,8 @@
 "price": 22100,
 "tones": "Varios tonos disponibles",
 "id": "lapiz-labial-liquido-mate-at-play-con-vit-e-y-karite",
-"sort": 810
+"sort": 810,
+"img": "img/p/lapiz-labial-liquido-mate-at-play-con-vit-e-y-karite.webp"
 },
 {
 "cat": "Maquillaje",
@@ -772,7 +849,8 @@
 "price": 20000,
 "tones": "Varios tonos disponibles",
 "id": "lapices-labiales-mate-efecto-polvo-at-play",
-"sort": 820
+"sort": 820,
+"img": "img/p/lapices-labiales-mate-efecto-polvo-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -782,7 +860,8 @@
 "price": 21700,
 "tones": "Mauve Love · Coral Love · Red Crush · Magenta Crush",
 "id": "balsamo-labial-at-play-edicion-limitada",
-"sort": 830
+"sort": 830,
+"img": "img/p/balsamo-labial-at-play-edicion-limitada.webp"
 },
 {
 "cat": "Maquillaje",
@@ -791,7 +870,8 @@
 "meta": "7 g · EEUU · Black",
 "price": 32700,
 "id": "mascara-para-pestanas-a-prueba-de-agua-at-play",
-"sort": 840
+"sort": 840,
+"img": "img/p/mascara-para-pestanas-a-prueba-de-agua-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -800,7 +880,8 @@
 "meta": "12 g · Brasil",
 "price": 17800,
 "id": "sombra-de-ojos-primer-at-play",
-"sort": 850
+"sort": 850,
+"img": "img/p/sombra-de-ojos-primer-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -810,7 +891,8 @@
 "price": 18600,
 "tones": "Choco Espresso · Gold Star · Rosy Plum",
 "id": "duo-de-sombras-en-polvo-at-play-edicion-limitada",
-"sort": 860
+"sort": 860,
+"img": "img/p/duo-de-sombras-en-polvo-at-play-edicion-limitada.webp"
 },
 {
 "cat": "Maquillaje",
@@ -819,7 +901,8 @@
 "meta": "3 ml · Argentina · Black",
 "price": 23200,
 "id": "delineador-liquido-para-ojos-at-play",
-"sort": 870
+"sort": 870,
+"img": "img/p/delineador-liquido-para-ojos-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -829,7 +912,8 @@
 "price": 16800,
 "tones": "Matte Black · Metallic Pink/Blue/Brown/Green/Purple",
 "id": "lapiz-delineador-para-ojos-at-play",
-"sort": 880
+"sort": 880,
+"img": "img/p/lapiz-delineador-para-ojos-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -839,7 +923,8 @@
 "price": 20000,
 "tones": "Cool Blonde · True Brown",
 "id": "duo-de-lapiz-de-cejas-at-play",
-"sort": 890
+"sort": 890,
+"img": "img/p/duo-de-lapiz-de-cejas-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -849,7 +934,8 @@
 "price": 29200,
 "tones": "7 tonos: Light a Deep Tan",
 "id": "base-de-maquillaje-liquida-mate-at-play",
-"sort": 900
+"sort": 900,
+"img": "img/p/base-de-maquillaje-liquida-mate-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -859,7 +945,8 @@
 "price": 30500,
 "tones": "Coral Sky · Pink Shine",
 "id": "duo-de-rubor-at-play",
-"sort": 910
+"sort": 910,
+"img": "img/p/duo-de-rubor-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -868,7 +955,8 @@
 "meta": "5 g · México · Desert Sun",
 "price": 30500,
 "id": "duo-de-bronceador-at-play",
-"sort": 920
+"sort": 920,
+"img": "img/p/duo-de-bronceador-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -878,7 +966,8 @@
 "price": 22500,
 "tones": "Get Sculpted 1 · Get Sculpted 2",
 "id": "crayon-para-el-contorno-del-rostro-at-play",
-"sort": 930
+"sort": 930,
+"img": "img/p/crayon-para-el-contorno-del-rostro-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -888,7 +977,8 @@
 "price": 22500,
 "tones": "Rose Gold Glow",
 "id": "crayon-iluminador-del-rostro-at-play",
-"sort": 940
+"sort": 940,
+"img": "img/p/crayon-iluminador-del-rostro-at-play.webp"
 },
 {
 "cat": "Maquillaje",
@@ -936,7 +1026,8 @@
 "price": 78030,
 "note": "Precio con descuento aplicado",
 "id": "confidently-you",
-"sort": 980
+"sort": 980,
+"img": "img/p/confidently-you.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -945,7 +1036,8 @@
 "meta": "50 ml · Eau de Parfum · Argentina o EEUU",
 "price": 86400,
 "id": "belara",
-"sort": 990
+"sort": 990,
+"img": "img/p/belara.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -955,7 +1047,8 @@
 "price": 68000,
 "note": "Precio con descuento aplicado",
 "id": "dream-fearlessly",
-"sort": 1000
+"sort": 1000,
+"img": "img/p/dream-fearlessly.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -965,7 +1058,8 @@
 "price": 68000,
 "note": "Precio con descuento aplicado",
 "id": "live-fearlessly",
-"sort": 1010
+"sort": 1010,
+"img": "img/p/live-fearlessly.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -975,7 +1069,8 @@
 "price": 68000,
 "note": "Precio con descuento aplicado",
 "id": "love-fearlessly",
-"sort": 1020
+"sort": 1020,
+"img": "img/p/love-fearlessly.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -984,7 +1079,8 @@
 "meta": "60 ml · EDT · México",
 "price": 68100,
 "id": "mary-kay-embrace-para-ella",
-"sort": 1030
+"sort": 1030,
+"img": "img/p/mary-kay-embrace-para-ella.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -993,7 +1089,8 @@
 "meta": "60 ml · EDP · México",
 "price": 78300,
 "id": "pink-diamonds-intense",
-"sort": 1040
+"sort": 1040,
+"img": "img/p/pink-diamonds-intense.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1002,7 +1099,8 @@
 "meta": "60 ml · EDP · México",
 "price": 78300,
 "id": "pink-diamonds",
-"sort": 1050
+"sort": 1050,
+"img": "img/p/pink-diamonds.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1011,7 +1109,8 @@
 "meta": "60 ml · EDP · México",
 "price": 78300,
 "id": "forever-diamonds",
-"sort": 1060
+"sort": 1060,
+"img": "img/p/forever-diamonds.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1021,7 +1120,8 @@
 "price": 70470,
 "note": "Precio con descuento aplicado",
 "id": "modern-charm",
-"sort": 1070
+"sort": 1070,
+"img": "img/p/modern-charm.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1031,7 +1131,8 @@
 "price": 66555,
 "note": "Precio con descuento aplicado",
 "id": "modern-charm-glam",
-"sort": 1080
+"sort": 1080,
+"img": "img/p/modern-charm-glam.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1040,7 +1141,8 @@
 "meta": "60 ml · Eau de Toilette · México",
 "price": 60750,
 "id": "true-passion",
-"sort": 1090
+"sort": 1090,
+"img": "img/p/true-passion.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1049,7 +1151,8 @@
 "meta": "60 ml · Eau de Toilette · México",
 "price": 67500,
 "id": "true-passion-l-eau",
-"sort": 1100
+"sort": 1100,
+"img": "img/p/true-passion-l-eau.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1058,7 +1161,8 @@
 "meta": "60 ml · EDT · México",
 "price": 67500,
 "id": "wish",
-"sort": 1110
+"sort": 1110,
+"img": "img/p/wish.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1067,7 +1171,8 @@
 "meta": "50 ml · EDP · México",
 "price": 66500,
 "id": "mary-kay-joy-emotion-scent",
-"sort": 1120
+"sort": 1120,
+"img": "img/p/mary-kay-joy-emotion-scent.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1076,7 +1181,8 @@
 "meta": "50 ml · EDP · México",
 "price": 63700,
 "id": "mary-kay-garden-scent",
-"sort": 1130
+"sort": 1130,
+"img": "img/p/mary-kay-garden-scent.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1085,7 +1191,8 @@
 "meta": "50 ml · EDP · México",
 "price": 54500,
 "id": "mary-kay-velvet-scent",
-"sort": 1140
+"sort": 1140,
+"img": "img/p/mary-kay-velvet-scent.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1094,7 +1201,8 @@
 "meta": "50 ml · EDP · México",
 "price": 63700,
 "id": "mary-kay-blush-scent",
-"sort": 1150
+"sort": 1150,
+"img": "img/p/mary-kay-blush-scent.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1103,7 +1211,8 @@
 "meta": "50 ml · Eau de Toilette · México",
 "price": 58300,
 "id": "hello-brillant",
-"sort": 1160
+"sort": 1160,
+"img": "img/p/hello-brillant.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1112,7 +1221,8 @@
 "meta": "50 ml · EDT · México",
 "price": 58300,
 "id": "mary-kay-at-play",
-"sort": 1170
+"sort": 1170,
+"img": "img/p/mary-kay-at-play.webp"
 },
 {
 "cat": "Fragancias Femeninas",
@@ -1121,7 +1231,8 @@
 "meta": "50 ml · EDT · México",
 "price": 58300,
 "id": "mary-kay-at-play-pink",
-"sort": 1180
+"sort": 1180,
+"img": "img/p/mary-kay-at-play-pink.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1131,7 +1242,8 @@
 "price": 87500,
 "feat": true,
 "id": "true-optimism",
-"sort": 1190
+"sort": 1190,
+"img": "img/p/true-optimism.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1141,7 +1253,8 @@
 "price": 72505,
 "note": "Precio con descuento aplicado",
 "id": "authentic-hero",
-"sort": 1200
+"sort": 1200,
+"img": "img/p/authentic-hero.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1151,7 +1264,8 @@
 "price": 72505,
 "note": "Precio con descuento aplicado",
 "id": "authentic-hero-bold",
-"sort": 1210
+"sort": 1210,
+"img": "img/p/authentic-hero-bold.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1161,7 +1275,8 @@
 "price": 72505,
 "note": "Precio con descuento aplicado",
 "id": "authentic-hero-style",
-"sort": 1220
+"sort": 1220,
+"img": "img/p/authentic-hero-style.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1170,7 +1285,8 @@
 "meta": "75 ml · EDT · México",
 "price": 81200,
 "id": "upscale-black",
-"sort": 1230
+"sort": 1230,
+"img": "img/p/upscale-black.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1179,7 +1295,8 @@
 "meta": "75 ml · EDP · México",
 "price": 81200,
 "id": "upscale-gentleman",
-"sort": 1240
+"sort": 1240,
+"img": "img/p/upscale-gentleman.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1188,7 +1305,8 @@
 "meta": "75 ml · EDP · Argentina o México",
 "price": 81200,
 "id": "magnetic-passion",
-"sort": 1250
+"sort": 1250,
+"img": "img/p/magnetic-passion.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1197,7 +1315,8 @@
 "meta": "75 ml · EDP · Argentina o México",
 "price": 81200,
 "id": "magnetic-passion-edge",
-"sort": 1260
+"sort": 1260,
+"img": "img/p/magnetic-passion-edge.webp"
 },
 {
 "cat": "Fragancias Masculinas",
@@ -1207,7 +1326,8 @@
 "price": 67575,
 "note": "Precio con descuento aplicado",
 "id": "mary-kay-embrace-para-el",
-"sort": 1270
+"sort": 1270,
+"img": "img/p/mary-kay-embrace-para-el.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1217,7 +1337,8 @@
 "price": 49440,
 "note": "Precio con descuento aplicado",
 "id": "locion-reafirmante-corporal-timewise-body",
-"sort": 1280
+"sort": 1280,
+"img": "img/p/locion-reafirmante-corporal-timewise-body.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1227,7 +1348,8 @@
 "price": 89700,
 "feat": true,
 "id": "set-manos-de-seda-satin-hands-te-blanco-y-citricos",
-"sort": 1290
+"sort": 1290,
+"img": "img/p/set-manos-de-seda-satin-hands-te-blanco-y-citricos.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1236,7 +1358,8 @@
 "meta": "118 ml · EEUU",
 "price": 68000,
 "id": "protector-solar-mary-kay-rostro-y-cuerpo-fps-50",
-"sort": 1300
+"sort": 1300,
+"img": "img/p/protector-solar-mary-kay-rostro-y-cuerpo-fps-50.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1245,7 +1368,8 @@
 "meta": "EEUU",
 "price": 38520,
 "id": "set-satin-lips-de-mary-kay",
-"sort": 1310
+"sort": 1310,
+"img": "img/p/set-satin-lips-de-mary-kay.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1254,7 +1378,8 @@
 "meta": "200 ml · EEUU",
 "price": 35000,
 "id": "locion-corporal-mora-vainilla",
-"sort": 1320
+"sort": 1320,
+"img": "img/p/locion-corporal-mora-vainilla.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1263,7 +1388,8 @@
 "meta": "200 ml · EEUU",
 "price": 35000,
 "id": "gel-para-ducha-mora-vainilla",
-"sort": 1330
+"sort": 1330,
+"img": "img/p/gel-para-ducha-mora-vainilla.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1272,7 +1398,8 @@
 "meta": "200 ml · EEUU",
 "price": 35000,
 "id": "locion-corporal-manzana-almendra",
-"sort": 1340
+"sort": 1340,
+"img": "img/p/locion-corporal-manzana-almendra.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1281,7 +1408,8 @@
 "meta": "200 ml · EEUU",
 "price": 35000,
 "id": "gel-para-ducha-manzana-almendra",
-"sort": 1350
+"sort": 1350,
+"img": "img/p/gel-para-ducha-manzana-almendra.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1290,7 +1418,8 @@
 "meta": "85 g · Argentina",
 "price": 23300,
 "id": "crema-para-manos-con-karite",
-"sort": 1360
+"sort": 1360,
+"img": "img/p/crema-para-manos-con-karite.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1299,7 +1428,8 @@
 "meta": "73 ml · EEUU",
 "price": 25900,
 "id": "crema-para-manos-lavanda-y-coco-edicion-limitada",
-"sort": 1370
+"sort": 1370,
+"img": "img/p/crema-para-manos-lavanda-y-coco-edicion-limitada.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1308,7 +1438,8 @@
 "meta": "88 ml · EEUU",
 "price": 22500,
 "id": "crema-energizante-para-pies-y-piernas",
-"sort": 1380
+"sort": 1380,
+"img": "img/p/crema-energizante-para-pies-y-piernas.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1317,7 +1448,8 @@
 "meta": "8 g · EEUU",
 "price": 21400,
 "id": "mascarilla-exfoliante-para-labios-con-karite-satin-lips",
-"sort": 1390
+"sort": 1390,
+"img": "img/p/mascarilla-exfoliante-para-labios-con-karite-satin-lips.webp"
 },
 {
 "cat": "Cuidado Corporal",
@@ -1326,7 +1458,8 @@
 "meta": "8 g · EEUU",
 "price": 21400,
 "id": "crema-humectante-para-labios-con-karite-satin-lips",
-"sort": 1400
+"sort": 1400,
+"img": "img/p/crema-humectante-para-labios-con-karite-satin-lips.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1336,7 +1469,8 @@
 "price": 123800,
 "feat": true,
 "id": "set-de-brochas-con-estuche-mary-kay",
-"sort": 1410
+"sort": 1410,
+"img": "img/p/set-de-brochas-con-estuche-mary-kay.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1345,7 +1479,8 @@
 "meta": "China",
 "price": 37900,
 "id": "brocha-para-polvos",
-"sort": 1420
+"sort": 1420,
+"img": "img/p/brocha-para-polvos.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1354,7 +1489,8 @@
 "meta": "China",
 "price": 32000,
 "id": "brocha-oval-para-base-de-maquillaje",
-"sort": 1430
+"sort": 1430,
+"img": "img/p/brocha-oval-para-base-de-maquillaje.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1363,7 +1499,8 @@
 "meta": "China",
 "price": 24100,
 "id": "brocha-para-rubor",
-"sort": 1440
+"sort": 1440,
+"img": "img/p/brocha-para-rubor.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1372,7 +1509,8 @@
 "meta": "China",
 "price": 23800,
 "id": "brocha-para-base-de-maquillaje-liquida",
-"sort": 1450
+"sort": 1450,
+"img": "img/p/brocha-para-base-de-maquillaje-liquida.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1390,7 +1528,8 @@
 "meta": "China",
 "price": 49600,
 "id": "compacto-perfect-palette-mary-kay-vacio",
-"sort": 1470
+"sort": 1470,
+"img": "img/p/compacto-perfect-palette-mary-kay-vacio.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1399,7 +1538,8 @@
 "meta": "China",
 "price": 24500,
 "id": "compacto-pettite-palette-mary-kay-vacio",
-"sort": 1480
+"sort": 1480,
+"img": "img/p/compacto-pettite-palette-mary-kay-vacio.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1409,7 +1549,8 @@
 "price": 13120,
 "note": "Precio con descuento aplicado",
 "id": "esponja-para-maquillaje",
-"sort": 1490
+"sort": 1490,
+"img": "img/p/esponja-para-maquillaje.webp"
 },
 {
 "cat": "Brochas y Accesorios",
@@ -1418,6 +1559,7 @@
 "meta": "China",
 "price": 7700,
 "id": "esponja-cosmetica-x2",
-"sort": 1500
+"sort": 1500,
+"img": "img/p/esponja-cosmetica-x2.webp"
 }
 ]
