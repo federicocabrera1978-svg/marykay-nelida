@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Panel de Nélida · Catálogo Mary Kay</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+<header class="top">
+  <div><b>Panel de Nélida</b><span>Catálogo Mary Kay</span></div>
+  <div class="top-right"><a href="/" target="_blank" rel="noopener">Ver catálogo ↗</a><button id="logoutBtn" class="btn ghost hidden">Salir</button></div>
+</header>
+
+<section id="loginView" class="card narrow">
+  <h1>Entrar</h1>
+  <p class="muted">Escribí tu correo y tu contraseña.</p>
+  <form id="loginForm" autocomplete="on">
+    <label>Correo<input id="loginEmail" type="email" required autocomplete="username"></label>
+    <label>Contraseña<input id="loginPass" type="password" required autocomplete="current-password"></label>
+    <button class="btn big" type="submit">Entrar</button>
+    <p id="loginMsg" class="msg"></p>
+  </form>
+</section>
+
+<main id="appView" class="hidden">
+  <nav class="tabs" id="tabs">
+    <button data-tab="productos" class="active">🛍 Productos</button>
+    <button data-tab="estadisticas">📊 Visitas</button>
+    <button data-tab="red">👭 Mi red</button>
+    <button data-tab="ventas">💰 Ventas</button>
+  </nav>
+
+  <!-- PRODUCTOS -->
+  <section id="tab-productos" class="tab">
+    <div class="help">Cambiá el <b>precio</b> o el <b>stock</b> y tocá <b>Guardar cambios</b>. Si ponés stock <b>0</b>, en el catálogo aparece “Sin stock”. Si dejás el stock vacío, se muestra disponible.</div>
+    <div class="toolbar">
+      <input id="pSearch" type="search" placeholder="Buscar producto…">
+      <select id="pCat"><option value="">Todas las categorías</option></select>
+      <label class="check"><input type="checkbox" id="pOnlyOut"> Solo sin stock</label>
+    </div>
+    <div id="pList" class="plist"></div>
+    <div class="savebar" id="saveBar"><span id="saveInfo">Sin cambios</span><button class="btn big" id="saveBtn" disabled>Guardar cambios</button></div>
+  </section>
+
+  <!-- ESTADÍSTICAS -->
+  <section id="tab-estadisticas" class="tab hidden">
+    <div class="toolbar"><label>Período <select id="sDays"><option value="7">Últimos 7 días</option><option value="30" selected>Últimos 30 días</option><option value="90">Últimos 90 días</option></select></label><button class="btn ghost" id="sReload">Actualizar</button></div>
+    <div class="grid2">
+      <div class="card"><h2>Visitas por día</h2><div id="sDaysTable"></div></div>
+      <div class="card"><h2>Productos más mirados</h2><div id="sTop"></div></div>
+    </div>
+    <div class="card"><h2>Visitantes (anónimos) y qué miraron</h2><p class="muted small">Cada visitante es un código al azar de su navegador: no sabemos quién es.</p><div id="sVisitors"></div></div>
+  </section>
+
+  <!-- MI RED -->
+  <section id="tab-red" class="tab hidden">
+    <div class="grid2">
+      <div class="card">
+        <h2 id="mFormTitle">Sumar una persona</h2>
+        <form id="mForm">
+          <input type="hidden" id="mId">
+          <label>Nombre *<input id="mName" required maxlength="120"></label>
+          <label>Teléfono o contacto<input id="mContact" maxlength="120"></label>
+          <label>Fecha de ingreso<input id="mJoined" type="date"></label>
+          <label>¿Quién la sumó? (a cargo de)<select id="mSponsor"><option value="">— Directamente yo —</option></select></label>
+          <label>Estado<select id="mStatus"><option value="activa">Activa</option><option value="inactiva">Inactiva</option></select></label>
+          <label>Notas<textarea id="mNotes" rows="3"></textarea></label>
+          <div class="row"><button class="btn big" type="submit">Guardar</button><button class="btn ghost" type="button" id="mCancel">Limpiar</button></div>
+          <p id="mMsg" class="msg"></p>
+        </form>
+      </div>
+      <div class="card"><h2>Mi red</h2><p class="muted small">Tocá un nombre para editarlo. Debajo de cada una aparecen las personas a su cargo.</p><div id="mTree"></div></div>
+    </div>
+  </section>
+
+  <!-- VENTAS -->
+  <section id="tab-ventas" class="tab hidden">
+    <div class="grid2">
+      <div class="card">
+        <h2>Anotar una venta</h2>
+        <form id="vForm">
+          <label>Persona *<select id="vMember" required></select></label>
+          <label>Fecha *<input id="vDate" type="date" required></label>
+          <label>Monto ($) *<input id="vAmount" type="number" min="0" step="1" required inputmode="numeric"></label>
+          <label>Productos / nota<textarea id="vDetail" rows="3"></textarea></label>
+          <button class="btn big" type="submit">Guardar venta</button>
+          <p id="vMsg" class="msg"></p>
+        </form>
+      </div>
+      <div class="card"><h2>Totales por persona</h2><div id="vByMember"></div><h2>Totales por mes</h2><div id="vByMonth"></div></div>
+    </div>
+    <div class="card"><h2>Últimas ventas</h2><div id="vList"></div></div>
+  </section>
+</main>
+<div id="toast" class="toast"></div>
+<script src="/admin.js" defer></script>
+</body>
+</html>

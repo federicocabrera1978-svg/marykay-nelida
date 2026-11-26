@@ -1,0 +1,42 @@
+:root{--berry:#8a2a55;--berry-deep:#5e1a3a;--blush:#f6e4ea;--paper:#fbf6f2;--ink:#2a1f24;--soft:#6e5a63;--ok:#2f7a4a;--bad:#b3261e}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.45;padding-bottom:90px}
+.hidden{display:none!important}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;background:var(--berry-deep);color:#fff}
+.top b{display:block;font-size:1.15rem}.top span{font-size:.8rem;opacity:.8}.top a{color:#fff;margin-right:12px}
+.top-right{display:flex;align-items:center}
+.card{background:#fff;border-radius:16px;padding:18px 20px;margin:16px;box-shadow:0 2px 10px rgba(94,26,58,.07)}
+.narrow{max-width:420px;margin:40px auto}
+h1{margin:.2em 0}h2{font-size:1.15rem;margin:.2em 0 .6em;color:var(--berry-deep)}
+label{display:block;margin:10px 0;font-weight:600;font-size:.95rem}
+input,select,textarea{display:block;width:100%;margin-top:4px;padding:11px 12px;font-size:1rem;border:1.5px solid #dcc9d1;border-radius:10px;background:#fff;font-family:inherit}
+input:focus,select:focus,textarea:focus{outline:3px solid #f0c6d6;border-color:var(--berry)}
+.btn{background:var(--berry);color:#fff;border:0;border-radius:12px;padding:10px 16px;font-size:1rem;font-weight:600;cursor:pointer}
+.btn.big{padding:14px 22px;font-size:1.05rem}.btn.ghost{background:transparent;color:inherit;border:1.5px solid currentColor}
+.top .btn.ghost{color:#fff}.btn:disabled{opacity:.45;cursor:default}
+.btn.small{padding:6px 10px;font-size:.85rem}.btn.danger{background:var(--bad)}
+.muted{color:var(--soft)}.small{font-size:.85rem}.msg{min-height:1.3em;font-weight:600}.msg.err{color:var(--bad)}.msg.ok{color:var(--ok)}
+.tabs{display:flex;gap:8px;padding:12px 16px 0;flex-wrap:wrap;position:sticky;top:0;background:var(--paper);z-index:5}
+.tabs button{flex:1;min-width:130px;padding:12px;border-radius:12px;border:1.5px solid #e2cfd7;background:#fff;font-size:1rem;font-weight:600;cursor:pointer;color:var(--berry-deep)}
+.tabs button.active{background:var(--berry);color:#fff;border-color:var(--berry)}
+.help{margin:16px;padding:12px 16px;background:var(--blush);border-radius:12px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 16px}
+.toolbar input,.toolbar select{width:auto;flex:1;min-width:180px}.toolbar label{margin:0}
+.check{display:flex!important;align-items:center;gap:6px;font-weight:500}.check input{width:auto;margin:0}
+.plist{margin:12px 16px}
+.prow{display:grid;grid-template-columns:1fr 150px 110px 90px;gap:10px;align-items:center;background:#fff;border-radius:12px;padding:10px 14px;margin-bottom:8px;border:2px solid transparent}
+.prow.changed{border-color:#e9a23b;background:#fff9ef}.prow.out{background:#f4f1f2}
+.prow .pname b{display:block}.prow .pname small{color:var(--soft)}
+.prow input{margin:0;padding:9px}.prow .lbl{font-size:.72rem;color:var(--soft);font-weight:600;display:block}
+.prow .outbtn{font-size:.8rem;padding:8px;border-radius:10px;border:1.5px solid #ccc;background:#fff;cursor:pointer}
+.cathead{margin:18px 4px 8px;color:var(--berry-deep);font-size:1.05rem}
+@media(max-width:640px){.prow{grid-template-columns:1fr 1fr}.prow .pname{grid-column:1/-1}}
+.savebar{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 18px;background:#fff;box-shadow:0 -3px 12px rgba(0,0,0,.08);z-index:10}
+.grid2{display:grid;grid-template-columns:1fr 1fr}@media(max-width:860px){.grid2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:.95rem}th,td{text-align:left;padding:7px 6px;border-bottom:1px solid #eee;vertical-align:top}th{color:var(--soft);font-size:.8rem;text-transform:uppercase}
+td.num,th.num{text-align:right}
+.tree ul{list-style:none;padding-left:22px;margin:4px 0;border-left:2px solid #f0d9e2}.tree>ul{padding-left:0;border:0}
+.tree li{margin:6px 0}.mem{cursor:pointer;padding:6px 10px;border-radius:10px;background:var(--blush);display:inline-block}
+.mem.inactiva{opacity:.55;text-decoration:line-through}.mem small{color:var(--soft);margin-left:6px}
+.row{display:flex;gap:10px}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:12px 18px;border-radius:12px;opacity:0;transition:.3s;pointer-events:none;z-index:20}
+.toast.show{opacity:1}
