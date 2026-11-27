@@ -11,14 +11,14 @@
 <body>
 <header class="top">
   <div><b>Panel de Nélida</b><span>Catálogo Mary Kay</span></div>
-  <div class="top-right"><a href="/" target="_blank" rel="noopener">Ver catálogo ↗</a><button id="logoutBtn" class="btn ghost hidden">Salir</button></div>
+  <div class="top-right"><a href="/" target="_blank" rel="noopener">Ver catálogo ↗</a><button id="pwBtn" class="btn ghost hidden" type="button">Cambiar contraseña</button><button id="logoutBtn" class="btn ghost hidden">Salir</button></div>
 </header>
 
 <section id="loginView" class="card narrow">
   <h1>Entrar</h1>
-  <p class="muted">Escribí tu correo y tu contraseña.</p>
+  <p class="muted">Escribí tu usuario y tu contraseña.</p>
   <form id="loginForm" autocomplete="on">
-    <label>Correo<input id="loginEmail" type="email" required autocomplete="username"></label>
+    <label>Usuario<input id="loginEmail" type="text" required autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="email"></label>
     <label>Contraseña<input id="loginPass" type="password" required autocomplete="current-password"></label>
     <button class="btn big" type="submit">Entrar</button>
     <p id="loginMsg" class="msg"></p>
@@ -95,6 +95,19 @@
     <div class="card"><h2>Últimas ventas</h2><div id="vList"></div></div>
   </section>
 </main>
+<section id="pwView" class="card narrow hidden" aria-labelledby="pwTitle">
+  <h2 id="pwTitle">Cambiar contraseña</h2>
+  <p class="muted small">Mínimo 8 caracteres. Anotala en un lugar seguro.</p>
+  <form id="pwForm" autocomplete="off">
+    <input type="text" autocomplete="username" id="pwUser" hidden>
+    <label>Contraseña actual<input id="pwOld" type="password" required autocomplete="current-password"></label>
+    <label>Contraseña nueva<input id="pwNew" type="password" required minlength="8" autocomplete="new-password"></label>
+    <label>Repetir contraseña nueva<input id="pwNew2" type="password" required minlength="8" autocomplete="new-password"></label>
+    <button class="btn big" type="submit">Guardar contraseña</button>
+    <button class="btn ghost" type="button" id="pwCancel">Cancelar</button>
+    <p id="pwMsg" class="msg"></p>
+  </form>
+</section>
 <div id="toast" class="toast"></div>
 <script src="/admin.js" defer></script>
 </body>

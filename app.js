@@ -78,9 +78,10 @@ function buildChips(){
 /* ====== RENDER ====== */
 const catalogEl=$("catalog"), searchEl=$("search");
 searchEl.addEventListener("input", render);
+const imgSet=img=>{const m=/^img\/p\/([^/]+\.webp)$/.exec(img||"");return m?{sm:"img/p/sm/"+m[1],md:img,full:"img/p/lg/"+m[1]}:{sm:img,md:img,full:img};};
 function thumb(p){
   const flags=(p.is_new?'<span class="flag new">¡Nuevo!</span>':(p.feat?'<span class="flag">Destacado</span>':''))+(soldOut(p)?'<span class="flag out">Sin stock</span>':'');
-  if(p.img) return `<div class="thumb has-img"><img src="/${esc(p.img)}" alt="${esc(p.name)}" loading="lazy">${flags}</div>`;
+  if(p.img){const {sm,md,full}=imgSet(p.img); return `<div class="thumb has-img"><button type="button" class="zoom-btn" data-full="/${esc(full)}" aria-label="Ampliar foto: ${esc(p.name)}"><img src="/${esc(sm)}" srcset="/${esc(sm)} 1x, /${esc(md)} 2x" width="400" height="400" alt="${esc(p.name)}" loading="lazy" decoding="async"></button>${flags}</div>`;}
   const initial=(p.name.match(/[A-Za-zÁÉÍÓÚÑ]/)||["M"])[0].toUpperCase();
   return `<div class="thumb"><div class="thumb-fallback"><span class="mono">${esc(initial)}</span><small>${esc(p.tag)}</small></div>${flags}</div>`;
 }

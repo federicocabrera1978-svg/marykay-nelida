@@ -419,7 +419,7 @@
 "meta": "43 g · Corea",
 "price": 55000,
 "isNew": true,
-"img": "img/balsamo-limpiador-coreano.jpg",
+"img": "img/p/balsamo-limpiador-facial-mary-kay-edicion-limitada.webp",
 "feat": true,
 "id": "balsamo-limpiador-facial-mary-kay-edicion-limitada",
 "sort": 420
@@ -431,7 +431,7 @@
 "meta": "52 g · Corea",
 "price": 62000,
 "isNew": true,
-"img": "img/gel-colageno-coreano.jpg",
+"img": "img/p/gel-humectante-con-colageno-mary-kay-edicion-limitada.webp",
 "feat": true,
 "id": "gel-humectante-con-colageno-mary-kay-edicion-limitada",
 "sort": 430
@@ -443,7 +443,7 @@
 "meta": "90 g · Corea",
 "price": 72000,
 "isNew": true,
-"img": "img/parches-caracol.jpg",
+"img": "img/p/parches-faciales-con-gel-de-caracol-mary-kay-edicion-limitada.webp",
 "feat": true,
 "id": "parches-faciales-con-gel-de-caracol-mary-kay-edicion-limitada",
 "sort": 440
@@ -455,7 +455,7 @@
 "meta": "EEUU",
 "price": 384120,
 "isNew": true,
-"img": "img/set-timewise-repair.jpg",
+"img": "img/p/set-timewise-repair-volu-firm.webp",
 "id": "set-timewise-repair-volu-firm",
 "sort": 450
 },
@@ -988,7 +988,7 @@
 "price": 36000,
 "isNew": true,
 "tones": "18 tonos: Light 2 a Deep 6",
-"img": "img/bases-timewise-3d-nuevas.jpg",
+"img": "img/p/base-de-maquillaje-mate-timewise-3d-nueva-formula.webp",
 "feat": true,
 "id": "base-de-maquillaje-mate-timewise-3d-nueva-formula",
 "sort": 950
@@ -1001,7 +1001,7 @@
 "price": 36000,
 "isNew": true,
 "tones": "18 tonos: Light 2 a Deep 6",
-"img": "img/bases-timewise-3d-nuevas.jpg",
+"img": "img/p/base-de-maquillaje-luminosa-timewise-3d-nueva-formula.webp",
 "feat": true,
 "id": "base-de-maquillaje-luminosa-timewise-3d-nueva-formula",
 "sort": 960
@@ -1014,7 +1014,7 @@
 "price": 30500,
 "isNew": true,
 "tones": "Passionfruit Kiss · Raspberry Sorbet · Dulce Latte",
-"img": "img/balsamo-labios-color.jpg",
+"img": "img/p/balsamos-para-labios-con-color-mary-kay-edicion-limitada.webp",
 "id": "balsamos-para-labios-con-color-mary-kay-edicion-limitada",
 "sort": 970
 },

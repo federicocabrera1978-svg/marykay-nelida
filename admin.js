@@ -4,6 +4,9 @@
 const SB_URL="https://xdvzbxgmfwbwllocmhui.supabase.co";
 const SB_KEY="sb_publishable_FdznLUqqhXXYB_GlnRW5DA_WdVj0BvY";
 const SESSION_KEY="mk_admin_session";
+const LOGIN_DOMAIN="marykay-nelida.vercel.app";
+const toEmail=u=>{u=String(u||"").trim().toLowerCase();return u.includes("@")?u:u+"@"+LOGIN_DOMAIN;};
+let currentEmail="";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=n=>"$"+Number(n||0).toLocaleString("es-AR",{maximumFractionDigits:0});
@@ -16,7 +19,7 @@ const fday=s=>s?s.split("-").reverse().join("/"):"";
 let session=null;
 function saveSession(d){ session={access_token:d.access_token,refresh_token:d.refresh_token,expires_at:Date.now()+(d.expires_in||3600)*1000}; localStorage.setItem(SESSION_KEY,JSON.stringify(session)); }
 function loadSession(){ try{ session=JSON.parse(localStorage.getItem(SESSION_KEY)||"null"); }catch(e){ session=null; } }
-function clearSession(){ session=null; localStorage.removeItem(SESSION_KEY); }
+function clearSession(){ session=null; localStorage.removeItem(SESSION_KEY); localStorage.removeItem(SESSION_KEY+"_u"); }
 async function auth(grant,body){
   const r=await fetch(`${SB_URL}/auth/v1/token?grant_type=${grant}`,{method:"POST",headers:{apikey:SB_KEY,"Content-Type":"application/json"},body:JSON.stringify(body)});
   const d=await r.json().catch(()=>({}));
@@ -37,19 +40,42 @@ async function api(path,opts={}){
 }
 const rpc=(fn,args)=>api("rpc/"+fn,{method:"POST",body:JSON.stringify(args||{})});
 
-function showLogin(msg){ $("loginView").classList.remove("hidden"); $("appView").classList.add("hidden"); $("logoutBtn").classList.add("hidden"); $("loginMsg").textContent=msg||""; $("loginMsg").className="msg err"; }
+function showLogin(msg){ $("loginView").classList.remove("hidden"); $("appView").classList.add("hidden"); $("logoutBtn").classList.add("hidden"); $("pwBtn").classList.add("hidden"); $("pwView").classList.add("hidden"); $("loginMsg").textContent=msg||""; $("loginMsg").className="msg err"; }
 async function showApp(){
   const ok=await rpc("is_admin").catch(()=>false);
   if(ok!==true){ clearSession(); showLogin("Esta cuenta no tiene permiso de administración."); return; }
-  $("loginView").classList.add("hidden"); $("appView").classList.remove("hidden"); $("logoutBtn").classList.remove("hidden");
+  $("loginView").classList.add("hidden"); $("appView").classList.remove("hidden"); $("logoutBtn").classList.remove("hidden"); $("pwBtn").classList.remove("hidden");
   loadProducts(); loadMembers();
 }
 $("loginForm").addEventListener("submit",async e=>{
   e.preventDefault(); $("loginMsg").textContent="Entrando…"; $("loginMsg").className="msg";
-  try{ await auth("password",{email:$("loginEmail").value.trim(),password:$("loginPass").value}); $("loginPass").value=""; await showApp(); }
-  catch(err){ $("loginMsg").textContent="Correo o contraseña incorrectos."; $("loginMsg").className="msg err"; }
+  try{ currentEmail=toEmail($("loginEmail").value); localStorage.setItem(SESSION_KEY+"_u",currentEmail); await auth("password",{email:currentEmail,password:$("loginPass").value}); $("loginPass").value=""; await showApp(); }
+  catch(err){ $("loginMsg").textContent="Usuario o contraseña incorrectos."; $("loginMsg").className="msg err"; }
 });
 $("logoutBtn").addEventListener("click",async()=>{ try{ const t=await token(); await fetch(SB_URL+"/auth/v1/logout",{method:"POST",headers:{apikey:SB_KEY,Authorization:"Bearer "+t}}); }catch(e){} clearSession(); showLogin(""); });
+
+
+/* ====== CAMBIAR CONTRASEÑA ====== */
+function pwShow(on){ $("pwView").classList.toggle("hidden",!on); $("appView").classList.toggle("hidden",on); $("pwMsg").textContent=""; if(on){ $("pwForm").reset(); $("pwUser").value=currentEmail||localStorage.getItem(SESSION_KEY+"_u")||""; $("pwOld").focus(); } }
+$("pwBtn").addEventListener("click",()=>pwShow(true));
+$("pwCancel").addEventListener("click",()=>pwShow(false));
+$("pwForm").addEventListener("submit",async e=>{
+  e.preventDefault(); const m=$("pwMsg"); m.className="msg";
+  const n1=$("pwNew").value, n2=$("pwNew2").value;
+  if(n1.length<8){ m.textContent="La contraseña nueva tiene que tener al menos 8 caracteres."; m.className="msg err"; return; }
+  if(n1!==n2){ m.textContent="Las dos contraseñas nuevas no coinciden."; m.className="msg err"; return; }
+  const email=currentEmail||localStorage.getItem(SESSION_KEY+"_u")||"";
+  m.textContent="Guardando…";
+  try{ await auth("password",{email,password:$("pwOld").value}); }
+  catch(err){ m.textContent="La contraseña actual no es correcta."; m.className="msg err"; return; }
+  try{
+    const t=await token();
+    const r=await fetch(SB_URL+"/auth/v1/user",{method:"PUT",headers:{apikey:SB_KEY,Authorization:"Bearer "+t,"Content-Type":"application/json"},body:JSON.stringify({password:n1})});
+    const d=await r.json().catch(()=>({}));
+    if(!r.ok) throw new Error(d.msg||d.error_description||d.message||("Error "+r.status));
+    $("pwForm").reset(); pwShow(false); toast("Listo: contraseña cambiada ✅");
+  }catch(err){ m.textContent="No se pudo cambiar: "+err.message; m.className="msg err"; }
+});
 
 /* ====== PESTAÑAS ====== */
 $("tabs").addEventListener("click",e=>{

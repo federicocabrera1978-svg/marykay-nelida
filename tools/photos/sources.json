@@ -1,74 +1,1669 @@
 {
+ "limpiador-facial-hidratante": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Limpiadora Facial Hidratante Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwd795c41c/hi-res/10005/10201304_LimpiadoraFacialHidratante.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "limpiador-facial-matificante": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Limpiadora Facial Matificante Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw29622448/hi-res/10005/10201340_LimpiadoraFacialMatificante.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "exfoliante-facial-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Exfoliante Facial Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwb0edf992/hi-res/10005/10201395_ExfolianteFacialMaryKay.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "tonico-balanceador-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Tónico Balanceador Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw23205321/hi-res/10005/10201384_TonicoBalanceador.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "crema-facial-hidratante": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema Facial Hidratante Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw67ad5451/hi-res/10005/10201374_CremaFacialHidratanteMaryKay.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "crema-facial-matificante": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema Facial Matificante Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw83e450d3/hi-res/10005/10201376_CremaFacialMatificanteMaryKay.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-matificante-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Rutina Matificante Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwa34c00a6/hi-res/10005/PIMRutina%20Matificante%20Mary%20Kay.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-hidratante-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Rutina Hidratante Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwb120a33d/hi-res/10005/PIMRutina%20Hidratante%20Mary%20Kay.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "limpiador-facial-4-en-1-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Limpiadora Facial 4 en 1 TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwadbacd4f/hi-res/10004/PIM-Limpiador-Facial-4-en-1.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "locion-facial-humectante-con-antioxidantes-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Loción Facial Humectante con Antioxidantes TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw5804cf0e/hi-res/10004/PIM-Locion-Facial-Humectante-con-Antioxidantes.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "locion-facial-protectora-de-dia-fps-30-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Loción Facial Protectora de Día con FPS 30 TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw76942e17/hi-res/10004/PIM-Locion-Facial-Protectora-de-Dia-FPS30.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "gel-facial-de-recuperacion-nocturna-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel Facial de Recuperación Nocturna TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw51fa08ff/hi-res/10004/PIM-Gel-Facial-Recuperacion-Nocturna.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "crema-para-el-contorno-de-ojos-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema para el Contorno de los Ojos TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw53766154/hi-res/10003/Crema%20para%20el%20Contorno%20de%20los%20Ojos%20TimeWise.png",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "set-milagroso-ideal-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Rutina Ideal TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw9e499d16/hi-res/10005/10221348__RutinaIdealTimeWise_CombinadaGrasa.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-milagroso-avanzado-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Rutina Ideal Plus TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwe59a8126/hi-res/10005/10221351__RutinaIdealPlusTimeWise_NormalaSeca.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-basico-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Rutina Básica TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw1dca1e49/hi-res/10004/PIM-Rutina-Basica-TW.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-am-pm-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Set Día y Noche TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw9cead936/hi-res/10004/PIM-Set-Dia-y-Noche.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
  "espuma-limpiadora-facial-volu-firm": {
-  "alt": "Espuma Limpiadora Facial Volu-Firm® TimeWise® Repair",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwe1982276/hi-res/10006/Espuma%20Limpiadora%20Facial%20Volu-Firm%20Repair.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Espuma Limpiadora Facial Volu-Firm® TimeWise® Repair",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwe1982276/hi-res/10006/Espuma%20Limpiadora%20Facial%20Volu-Firm%20Repair.jpg",
+  "resolucion_original": "1150x1150",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1150
+  }
  },
  "locion-facial-efecto-reafirmante-volu-firm": {
-  "alt": "Loción Facial Efecto Reafirmante Volu-Firm® TimeWise Repair®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dw40488392/hi-res/10000/10108837-Locion%20Facial%20Reafirmante%20VoluFirm%20TWR.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Loción Facial Efecto Reafirmante Volu-Firm® TimeWise Repair®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw40488392/hi-res/10000/10108837-Locion%20Facial%20Reafirmante%20VoluFirm%20TWR.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "crema-facial-de-dia-efecto-reparador-fps-30-volu-firm": {
-  "alt": "Crema Facial para el Día Efecto Reparador FPS 30 Volu-Firm® TimeWise® Repair",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwa2bb630e/hi-res/10004/10120566-TimeWise-Repair-Crema-Dia-FPS30.jpg?sw=1000&sh=1000&sm=fit"
- },
- "crema-facial-nocturna-efecto-reparador-volu-firm": {
-  "alt": "Crema Facial Nocturna Efecto Reparador Volu-Firm® TimeWise® Repair",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dw0a8e2c82/hi-res/10006/PIM-VolufirmNightTreatment.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema Facial para el Día Efecto Reparador FPS 30 Volu-Firm® TimeWise® Repair",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwa2bb630e/hi-res/10004/10120566-TimeWise-Repair-Crema-Dia-FPS30.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "crema-de-accion-renovadora-para-contorno-de-ojos-volu-firm": {
-  "alt": "Crema de Acción Renovadora para el Contorno de los Ojos Volu-Firm® TimeWise® Repair",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dw459f2917/hi-res/10004/10047376-Crema-Accion-Renovadora-Contorno-Ojos-VoluFirm-TWR.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema de Acción Renovadora para el Contorno de los Ojos Volu-Firm® TimeWise® Repair",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw459f2917/hi-res/10004/10047376-Crema-Accion-Renovadora-Contorno-Ojos-VoluFirm-TWR.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "gel-facial-efecto-peeling-timewise-repair": {
-  "alt": "Gel Facial Efecto Peeling Revealing Radiance® TimeWise® Repair",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwc4cd7b85/hi-res/10004/10088897-Gel-Peeling-Revealing-TWR.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel Facial Efecto Peeling Revealing Radiance® TimeWise® Repair",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc4cd7b85/hi-res/10004/10088897-Gel-Peeling-Revealing-TWR.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "locion-facial-restauradora-de-la-barrera-de-la-piel": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Loción Facial Restauradora de Barrera 1:1:3 Mary Kay Clinical Solutions®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw36dcce12/hi-res/10005/Locion%20Facial%20Restauradora%20de%20Barrera%201-1-3%20Mary%20Kay%20Clinical%20Solutions.png",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "crema-con-efecto-tensor-de-lineas-de-expresion-dinamicas": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema Facial con Efecto Tensor de Líneas de Expresión Dinámicas Mary Kay Clinical Solutions®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw72bbe552/hi-res/10005/10227734_CremaFacialconEfectoTensordeLineasdeExpresionDinamicasMKClinicalSolutions.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "concentrado-iluminador-acido-ferulico-niacinamida": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Concentrado Iluminador de Ácido Ferúlico + Niacinamida Mary Kay Clinical Solutions®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw80633572/hi-res/10004/10177902%20Concentrado%20Illuminador%20de%20acido%20ferulico.png",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "concentrado-pha-aha-exfoliante": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Concentrado PHA + AHA Exfoliante Mary Kay Clinical Solutions®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc9ed409b/hi-res/10004/J2003101-UNL-GB-041-CLINICAL-SOLUTIONS-BOOSTER-SOLDIER-RESURFACER.png",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "concentrado-vitamina-c-resveratrol": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Concentrado C + Resveratrol para Reducción de Finas Líneas Mary Kay Clinical Solutions®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw72969c74/hi-res/10004/Concentrado%20Resvetrol%2010177899%20.png",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "concentrado-ha-ceramidas-para-la-humectacion": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "Mary Kay Clinical Solutions® HA + Ceramide Hydrator",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dwd9b63edf/hi-res/10005/CS-HA.CERAMIDE-HYDRATOR.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "desmaquillante-de-ojos-libre-de-aceite": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Loción Desmaquillante de Ojos Libre de Aceite Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw5afca7ba/hi-res/10000/J2007374-UNL-GB-241-OFEMR-NEW%20(corpo).png",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "oleo-nutritivo-hidratante-mary-kay": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "Mary Kay® Nourishing Oil",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dw8217ab20/hi-res/10005/J2010909-UNL-GB-030-Nourishing-Oil-1-Soldier-HiRes.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "suero-regenerador-c-e-timewise": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "TimeWise Replenishing Serum C+E®",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dw72a69a5b/hi-res/10004/10171886_TimeWise_Replenishing_Serumhires_Hires_1.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "agua-micelar-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Agua Micelar Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwf5682d37/hi-res/10004/PIM-01-Agua-Micelar.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-de-microexfoliacion-plus-tw": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "TimeWise® Microdermabrasion Plus Set",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dwb49df00e/hi-res/10006/microdermabrasion-plus-set-nobox.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "mascarilla-renovadora-en-gel-timewise": {
-  "alt": "Mascarilla Humectante en Gel Efecto Renovador TimeWise®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwfda94399/hi-res/10004/10151329-Mascarilla%20Humectante%20Gel%20Efecto%20Renovador.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascarilla Humectante en Gel Efecto Renovador TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwfda94399/hi-res/10004/10151329-Mascarilla%20Humectante%20Gel%20Efecto%20Renovador.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mascarilla-facial-de-limpieza-profunda-con-carbon-clear-proof": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascarilla Facial de Limpieza Profunda con Carbón Clear Proof®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw5a3f8243/hi-res/10004/10094148-Mascarilla%20Facial%20Carbon%20Clear%20Proof.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mascarilla-hidratante-en-crema-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascarilla Hidratante en Crema Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw4ce6669e/hi-res/10005/Mascarilla%20Hidratante%20en%20Crema%20Mary%20Kay.png",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "refrescante-liquido-renovador-timewise": {
+  "fuente": "PDF catálogo (imagen embebida, página 12)",
+  "caja_pt": [
+   318,
+   5,
+   412,
+   252
+  ],
+  "resolucion_nativa_aprox": "~514px lado mayor (150 ppi)",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
  },
  "crema-de-noche-extra-emoliente": {
-  "alt": "Crema Extra Emoliente de Noche Mary Kay®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwec8aff48/hi-res/10004/10072682-Crema%20Extra%20Emoliente%20de%20Noche.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema Extra Emoliente de Noche Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwec8aff48/hi-res/10004/10072682-Crema%20Extra%20Emoliente%20de%20Noche.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "gel-refrescante-para-parpados": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel Refrescante para Párpados Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwe5eda1b5/hi-res/10004/10190660-Gel%20Refrescante%20para%20Parpados.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "crema-humectante-intensiva-piel-seca": {
-  "alt": "Crema de Extra Hidratación Intensiva Mary Kay®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dw703e8efb/hi-res/10004/10031541-Crema%20de%20Extra%20Hidratacion%20Intensiva.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema de Extra Hidratación Intensiva Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw703e8efb/hi-res/10004/10031541-Crema%20de%20Extra%20Hidratacion%20Intensiva.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "gel-facial-hidratante-libre-de-aceite-piel-normal-a-grasa": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel Facial Hidratante Libre de Aceite Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc3d43e7d/hi-res/10004/10190955-Gel%20Facial%20Hidratante%20Libre%20de%20Aceite.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "balsamo-limpiador-facial-mary-kay-edicion-limitada": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Bálsamo Limpiador Facial Mary Kay® de Edición Especial",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwce0461bb/hi-res/10006/Melt-in%20Cleansing%20Balm.jpg",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "gel-humectante-con-colageno-mary-kay-edicion-limitada": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel Humectante con Colágeno Mary Kay® de Edición Especial",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw8c833e49/hi-res/10006/Collagen%20Moisturizing%20Gel.jpg",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "parches-faciales-con-gel-de-caracol-mary-kay-edicion-limitada": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Parches Faciales con Gel de Caracol Mary Kay® de Edición Especial",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw535a8bf9/hi-res/10006/Snail%20Gel%20Face%20Patches.jpg",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "set-timewise-repair-volu-firm": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "TimeWise Repair® Volu-Firm® Set",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dw83aa24c9/hi-res/10006/J2012933-UNL-US-138-TWR-Collection-HiRes.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "crema-facial-nocturna-efecto-reparador-volu-firm": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema Facial Nocturna Efecto Reparador Volu-Firm® TimeWise® Repair",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw0a8e2c82/hi-res/10006/PIM-VolufirmNightTreatment.jpg",
+  "resolucion_original": "1350x1350",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1350
+  }
+ },
+ "microexfoliante-refinador-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Microexfoliante Refinador TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwcb0cdce6/hi-res/10004/10145950-Microexfoliante%20Refinador.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "minimizador-de-poros-timewise": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Minimizador de Poros TimeWise®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwed85893d/hi-res/10004/10152828-Minimizador%20de%20Poros%20TW.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "base-de-maquillaje-mate-timewise-3d-version-anterior": {
+  "fuente": "PDF catálogo (guía de precios, recorte previo)",
+  "resolucion_nativa_aprox": "imagen embebida pequeña (~60-170px); sin versión oficial con match seguro",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "base-de-maquillaje-luminosa-timewise-3d-version-anterior": {
+  "fuente": "PDF catálogo (guía de precios, recorte previo)",
+  "resolucion_nativa_aprox": "imagen embebida pequeña (~60-170px); sin versión oficial con match seguro",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "crema-correctora-con-color-y-fps-15-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "CC Cream Crema Correctora de Color con FPS 15 Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwff387590/hi-res/10004/10072818-CC%20Cream%20FPS%2015-Very%20Light.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "pre-base-de-maquillaje-con-fps-15-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Base para Maquillaje FPS 15 Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwd0aaa8ac/hi-res/10004/10051535-Base%20Maquillaje%20FPS15.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "corrector-yellow": {
+  "fuente": "PDF catálogo (guía de precios, recorte previo)",
+  "resolucion_nativa_aprox": "imagen embebida pequeña (~60-170px); sin versión oficial con match seguro",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "corrector-iluminador-para-ojos-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Corrector Iluminador para Ojos Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw0514addb/hi-res/10005/J2010912-UNL-GB-127-UnderEye-Corrector-LightPeach-Soldier-2-WT.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "corrector-para-rostro-multi-beneficios-mary-kay": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "Mary Kay® Multi-Benefit Concealer",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dwdb2b8a08/hi-res/10005/J2010912-UNL-GB-058-Multi-Benefit-Concealer-Light1-Soldier1-HiRes.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "gel-voluminizador-para-cejas-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel Voluminizador para Cejas Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc6ce8efb/hi-res/10001/642309-UNL-GB-036-GBI-08-18-Soldier-VolumizingBrowTint-Blonde-Hi-Res.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "gel-transparente-para-cejas-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel Fijador para Cejas Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc768789b/hi-res/10005/Gel%20Fijador%20para%20Cejas%20Mary%20Kay.png",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "lapiz-delineador-para-cejas": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Lápiz Definidor para Cejas Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw53cf30fc/hi-res/10004/10127611-Blonde.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mascara-de-pestanas-great-heights": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascara para Pestañas Great Heights Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw607c70b7/hi-res/10000/Great_Heights.jpg",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "mascara-great-heights-a-prueba-de-agua": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascara para Pestañas Great Heights Mary Kay® a Prueba de Agua",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw442146b7/hi-res/10005/J2010912-UNL-GB-079-Great-Heights-Waterproof-Mascara-Soldier-2.png",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mascara-para-pestanas-lash-intensity": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascara para Pestañas Lash Intensity® Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw655e93bb/hi-res/10004/10092105-Mascara%20Pestanas%20Lash%20Intensity.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mascara-para-pestanas-maximo-desempeno": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascara para Pestañas de Máximo Desempeño Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwe72d4d4f/hi-res/10005/10222584_MascaraparaPestanasMaximoDesempeno.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mascara-para-pestanas-lash-love-fanorama": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "Mary Kay® Lash Love Fanorama™ Define + Lift Mascara",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dw5219a550/hi-res/10005/J2012933-UNL-GB-020-LL-Fanorama-Define-Lift-Mascara-Soldier-2-HiRes.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mascara-para-pestanas-lash-love-negra": {
+  "fuente": "PDF catálogo (imagen embebida, página 25)",
+  "caja_pt": [
+   25,
+   460,
+   190,
+   510
+  ],
+  "resolucion_nativa_aprox": "~86px lado mayor (37 ppi)",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "delineador-liquido-en-plumon-a-prueba-de-agua": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Delineador Líquido en Plumón para Ojos a Prueba de Agua Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc044d00e/hi-res/10004/10141205-Delineador%20Liquido%20Plumon%20para%20Ojos%20a%20Prueba%20de%20Agua.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "lapiz-delineador-para-ojos-a-prueba-de-agua-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Lápiz Delineador para Ojos a Prueba de Agua Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw08fee9f7/hi-res/10004/10205909-Brown.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "polvo-suelto-traslucido-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Polvo Suelto Traslúcido Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwbc668f4b/hi-res/10004/10060182-Polvo%20Suelto%20Traslucido.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "polvos-fijadores-con-acabado-sedoso": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Polvo Fijador con Acabado Sedoso Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwfcd7bd4f/hi-res/10003/J2002451-UNL-GB-071-GBIMAGES-10-21-SILKY-SETTING-POWDER-MED-IVORY.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "sombras-compactas-chromafusion-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Sombra para Ojos Mary Kay Chromafusion®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw27bb71a2/hi-res/10004/10107630-Sombra%20Dusty%20Rose.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "paleta-de-sombras-para-ojos-edicion-limitada": {
+  "fuente": "PDF catálogo (guía de precios, recorte previo)",
+  "resolucion_nativa_aprox": "imagen embebida pequeña (~60-170px); sin versión oficial con match seguro",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "iluminador-en-polvo-efecto-bronceado-medium-glow": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Bronceador Iluminador Mary Kay® de Edición Limitada",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwd31cc7ad/hi-res/10005/10233594_BronceadorIluminadorMKdeEdicionLimitada_MediumGlow.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "iluminador-para-rostro-chromafusion": {
-  "alt": "Iluminador para Rostro Mary Kay Chromafusion®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwc93b022b/hi-res/10004/10144015%20Iluminador%20Honey%20Glow.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Iluminador para Rostro Mary Kay Chromafusion®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc93b022b/hi-res/10004/10144015%20Iluminador%20Honey%20Glow.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "rubores-chromafusion": {
-  "alt": "Rubor Compacto Mary Kay Chromafusion®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwd035641a/hi-res/10004/10143935%20Rubor%20Wineberry.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Rubor Compacto Mary Kay Chromafusion®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwd035641a/hi-res/10004/10143935%20Rubor%20Wineberry.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "polvo-para-contorno-de-rostro-chromafusion": {
-  "alt": "Polvo para Contorno de Rostro Mary Kay Chromafusion®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dw19bb1c93/hi-res/10004/10143936%20Polvo%20Contorno%20Latte.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Polvo para Contorno de Rostro Mary Kay Chromafusion®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw19bb1c93/hi-res/10004/10143936%20Polvo%20Contorno%20Latte.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "rubor-en-gel-crema-mary-kay-edicion-limitada": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Rubor en Gel-Crema Mary Kay® de Edición Limitada",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw0e51788d/hi-res/10005/J2010912-UNL-GB-LE-Gifting-Gel-Cream-Blush-Soft-Buff-Set.png",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "lapices-labiales-en-gel-semi-shine-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Labial en Gel Semi-Shine Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw6de36d3b/hi-res/10004/10094610-Rosewood.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "lapices-labiales-en-gel-semi-mate-mary-kay": {
-  "alt": "Labial en Gel Semi Mate Mary Kay®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dw1e79fca6/hi-res/10000/10089647-Crushed%20Berry.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Labial en Gel Semi Mate Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw1e79fca6/hi-res/10000/10089647-Crushed%20Berry.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "lapices-labiales-hidratantes-supreme-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Lápiz Labial Hidratante Mary Kay® Supreme",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc29416f2/hi-res/10004/10155218-Labial%20Supreme%20Festive%20Pink.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "brillo-labial-mary-kay-unlimited": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Brillo Labial Mary Kay Unlimited®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwd13f5949/hi-res/10004/10153482-Brillo%20Pink%20Ballerina.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "lapiz-delineador-para-labios-a-prueba-de-agua": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Lápiz Delineador para Labios a Prueba de Agua Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc1a0aad5/hi-res/10004/10205938-Beige%20Nude.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "lapiz-labial-liquido-mate-at-play-con-vit-e-y-karite": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Labial Líquido Mate Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw23fc2fee/hi-res/10000/10222711_LabialLiquidoMateMKAtPlay_CallMeRose.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "lapices-labiales-mate-efecto-polvo-at-play": {
+  "fuente": "PDF catálogo (imagen embebida, página 28)",
+  "caja_pt": [
+   523,
+   225,
+   578,
+   460
+  ],
+  "resolucion_nativa_aprox": "~490px lado mayor (150 ppi)",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "balsamo-labial-at-play-edicion-limitada": {
+  "fuente": "PDF catálogo (imagen embebida, página 28)",
+  "caja_pt": [
+   673,
+   115,
+   724,
+   258
+  ],
+  "resolucion_nativa_aprox": "~298px lado mayor (150 ppi)",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "mascara-para-pestanas-a-prueba-de-agua-at-play": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascara para Pestañas a Prueba de Agua Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw27e6cb17/hi-res/10004/10213088%20Mascara%20Pestanas%20a%20Prueba%20de%20Agua.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "sombra-de-ojos-primer-at-play": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Base para Sombras con Color Mary Kay At Play® de Edición Limitada",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwb703a5b8/hi-res/10005/Corpo%20PIM%20Brownie.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "duo-de-sombras-en-polvo-at-play-edicion-limitada": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Dúo de Sombras en Polvo Mary Kay At Play® de Edición Especial",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwce47cca8/hi-res/10005/J2010848-UNL-LA-590-At-Play-Eye%20Duos-Soldier-Closed-Rustic-Rose-WT.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "delineador-liquido-para-ojos-at-play": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Delineador Líquido para Ojos Mary Kay At Play® Black",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw78292cfd/hi-res/10004/J2000910-UNL-LA-266-At-Play-Liquid-Eyeliner-Soldier-Black-PC.png",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "lapiz-delineador-para-ojos-at-play": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Lápiz Delineador para Ojos Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw027ced83/hi-res/10004/10158414-Lapiz%20Delineador%20Ojos%20Matte%20Black.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "duo-de-lapiz-de-cejas-at-play": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Dúo de Lápiz para Cejas Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwe9906c2f/hi-res/10004/10185842-Duo%20de%20Lapiz%20True%20Brown.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "base-de-maquillaje-liquida-mate-at-play": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Maquillaje Líquido Mate Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwb008c90d/hi-res/10004/10168997-Light.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "duo-de-rubor-at-play": {
-  "alt": "Dúo de Rubor en Polvo Mary Kay At Play®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwa3d4c6f8/hi-res/10004/10189854-Duo%20de%20Rubor%20Pink%20Shine.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Dúo de Rubor en Polvo Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwa3d4c6f8/hi-res/10004/10189854-Duo%20de%20Rubor%20Pink%20Shine.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "duo-de-bronceador-at-play": {
-  "alt": "Dúo de Bronceador en Polvo Mary Kay At Play®",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dw93534ee5/hi-res/10004/10189858-Duo%20de%20Bronceador%20Desert%20Sun.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Dúo de Bronceador en Polvo Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw93534ee5/hi-res/10004/10189858-Duo%20de%20Bronceador%20Desert%20Sun.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "crayon-para-el-contorno-del-rostro-at-play": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crayón para Contorno de Rostro Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw318e5ff6/hi-res/10004/10120688-Crayon%20Contorno%20Rostro%20Get%20Sculpted.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "crayon-iluminador-del-rostro-at-play": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crayón Iluminador para Rostro Mary Kay At Play®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw13e260d5/hi-res/10004/10120915-Crayon%20Iluminador%20Rose%20Gold%20Glow.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "base-de-maquillaje-mate-timewise-3d-nueva-formula": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Base de Maquillaje TimeWise 3D® con Acabado Mate",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw8cddf459/hi-res/10006/Light%203.jpg",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "base-de-maquillaje-luminosa-timewise-3d-nueva-formula": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Base de Maquillaje TimeWise 3D® con Acabado Luminoso",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw1da06f15/hi-res/10006/Light%203%20L.jpg",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "balsamos-para-labios-con-color-mary-kay-edicion-limitada": {
+  "fuente": "PDF catálogo (imagen embebida, página 27)",
+  "caja_pt": [
+   510,
+   250,
+   664,
+   402
+  ],
+  "resolucion_nativa_aprox": "~321px lado mayor (150 ppi)",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "confidently-you": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Confidently You® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw9f52ebea/hi-res/10005/Mary%20Kay%20Confidently%20You%20Eau%20de%20Parfum.png",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "belara": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Belara® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw5f6a242c/hi-res/10004/10192900-Belara.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "dream-fearlessly": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Dream Fearlessly® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwcea9e013/hi-res/10004/10088518-DREAM%20Fearlessly.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "live-fearlessly": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Live Fearlessly® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw3df26928/hi-res/10004/10088517-Live%20Fearlessly.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "love-fearlessly": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Love Fearlessly® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw396980b9/hi-res/10004/10088519-LOVE%20Fearlessly.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "mary-kay-embrace-para-ella": {
-  "alt": "Mary Kay Embrace® para ella Eau de Toilette",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dwdde02a57/hi-res/10000/10219573_EmbraceHer.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Embrace® para ella Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwdde02a57/hi-res/10000/10219573_EmbraceHer.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "pink-diamonds-intense": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Pink Diamonds Intense® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw09eac6be/hi-res/10004/PIM-01-Pink-Diamonds-Intense.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "pink-diamonds": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Pink Diamonds® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw236ac492/hi-res/10000/PIM-01-Pink-Diamonds.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "forever-diamonds": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Forever Diamonds® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwf4f87048/hi-res/10004/10108880-Forever%20Diamonds.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "modern-charm": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Modern Charm® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwe86bddce/hi-res/10004/10114363-Modern%20Charm.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "modern-charm-glam": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Modern Charm Glam® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwd77d4382/hi-res/10004/10155374-Modern%20Charm%20GLAM.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "true-passion": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "True Passion® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwb86a6c8d/hi-res/10004/10129398-True%20Passion.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "true-passion-l-eau": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "True Passion L’Eau® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw598ac6d0/hi-res/10004/10130483-True%20Passion%20LEAU.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "wish": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Wish® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw35e8b25f/hi-res/10004/10082847-Mary%20Kay%20Wish.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mary-kay-joy-emotion-scent": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Joy Emotion Scent® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw5275600b/hi-res/10005/10234335_MKJoyEmotionScentEaudeParfum.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mary-kay-garden-scent": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Garden Scent® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw05d81771/hi-res/10004/10212581-Garden%20Scent.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "mary-kay-velvet-scent": {
-  "alt": "Mary Kay Velvet Scent® Eau de Parfum",
-  "url": "https://www.marykay.com.mx/dw/image/v2/BLVX_PRD/on/demandware.static/-/Sites-mx-master-catalog/default/dw261257f2/hi-res/10004/10175579-Velvet%20Scent.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Velvet Scent® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw261257f2/hi-res/10004/10175579-Velvet%20Scent.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mary-kay-blush-scent": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Blush Scent® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwbbd9b3a2/hi-res/10004/10175580-Blush%20Scent.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "hello-brillant": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Hello Brilliant® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw83b4f605/hi-res/10005/10097118_HelloBrilliant.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mary-kay-at-play": {
+  "fuente": "PDF catálogo (imagen embebida, página 40)",
+  "caja_pt": [
+   110,
+   155,
+   365,
+   595
+  ],
+  "resolucion_nativa_aprox": "~916px lado mayor (150 ppi)",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 916
+  }
+ },
+ "mary-kay-at-play-pink": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay At Play Pink® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw219c2a26/hi-res/10004/10197360-Mary%20Kay%20At%20Play%20Pink.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "true-optimism": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay True Optimism® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw7cfeaded/hi-res/10006/Mary%20Kay%20True%20Optimism%20Eau%20de%20Parfum,%2050%20ml..jpg",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "authentic-hero": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Authentic Hero® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwb54ce303/hi-res/10006/395619-S54-GB-031-AuthenticHeroSM-cmyk.png",
+  "resolucion_original": "800x800",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "authentic-hero-bold": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Authentic Hero Bold® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwef5c3911/hi-res/10004/10213870-Authentic%20Hero%20Bold.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "authentic-hero-style": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Authentic Hero Style® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw68502be3/hi-res/10004/10177395-Authentic%20Hero%20Style%20FIXED.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "upscale-black": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Upscale Black® Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwdce72584/hi-res/10004/10124843-Upscale%20Black.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "upscale-gentleman": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Upscale Gentleman® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw5a74f68b/hi-res/10004/10104971-Upscale%20Gentleman.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "magnetic-passion": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Magnetic Passion® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwf0b7ec63/hi-res/10004/10074132-Magnetic%20Passion.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "magnetic-passion-edge": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Magnetic Passion Edge® Eau de Parfum",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw4359374b/hi-res/10004/10131288-Magnetic%20Passion%20Edge.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mary-kay-embrace-para-el": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mary Kay Embrace® para él Eau de Toilette",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw3bd5868f/hi-res/10005/10219871_EmbraceHim.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "locion-reafirmante-corporal-timewise-body": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Loción Reafirmante Corporal TimeWise Targeted-Action®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw7930d2da/hi-res/10000/10219506_TWTargetedActionToningLotionwTW3DComp.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-manos-de-seda-satin-hands-te-blanco-y-citricos": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "White Tea & Citrus Satin Hands® Pampering Set",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dwd94a6478/hi-res/10005/J2010552-10090638-WHITE-TEACITRUS%20SATIN-HANDS-PAMPERING-SET-HiRes.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "protector-solar-mary-kay-rostro-y-cuerpo-fps-50": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Protector Solar FPS 50+ Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw1f1a1305/hi-res/10005/10237288_ProtectorSolardeAmplioEspectroFPS50.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-satin-lips-de-mary-kay": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "White Tea & Citrus Satin Lips® Set",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dwea3e5e25/hi-res/10005/J2010552-10098324-WHITE-TEACITRUS-SATIN-LIPS-SET-HiRes.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "locion-corporal-mora-vainilla": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Loción Corporal con Aroma Mary Kay® Berry & Vanilla",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw5f1fd499/hi-res/10004/10162416-Locion%20Corporal%20Berry%20Vanilla.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "gel-para-ducha-mora-vainilla": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel para Ducha con Aroma Mary Kay® Berry & Vanilla",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwd71098dd/hi-res/10004/10162443-Gel%20para%20Ducha%20Berry%20Vanilla.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "locion-corporal-manzana-almendra": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Loción Corporal con Aroma Mary Kay® Apple & Almond",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwc8cba2b3/hi-res/10004/10162409-Locion%20Corporal%20Apple%20Almond.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "gel-para-ducha-manzana-almendra": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Gel para Ducha con Aroma Mary Kay® Apple & Almond",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw24deef48/hi-res/10004/10162408-Gel%20para%20Ducha%20Apple%20Almond.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "crema-para-manos-con-karite": {
+  "fuente": "PDF catálogo (imagen embebida, página 32)",
+  "caja_pt": [
+   342,
+   370,
+   435,
+   585
+  ],
+  "resolucion_nativa_aprox": "~448px lado mayor (150 ppi)",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "crema-para-manos-lavanda-y-coco-edicion-limitada": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema para Manos con Aroma Mary Kay® Lavender & Coconut de Edición Limitada",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw94704512/hi-res/10005/Crema%20para%20Manos%20con%20Aroma%20Mary%20Kay%20Lavender%20&%20Coconut%20de%20Edicion%20Especial_.png",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "crema-energizante-para-pies-y-piernas": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "Mint Bliss™ Energizing Lotion for Feet & Legs",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dwa87d799d/hi-res/10004/09060114GB_143_MintBliss_Hi_.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "mascarilla-exfoliante-para-labios-con-karite-satin-lips": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Mascarilla Exfoliante para Labios con Karité Satin Lips®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw5efe3d71/hi-res/10004/10186363-Mascarilla%20exfoliante%20para%20Labios.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "crema-humectante-para-labios-con-karite-satin-lips": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Crema Humectante para Labios con Karité Satin Lips®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwae3caf3c/hi-res/10004/10138754-Crema%20Humectante%20para%20Labios.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "set-de-brochas-con-estuche-mary-kay": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Set Esencial de Brochas con Estuche Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw85b3ffe7/hi-res/10004/PIM-01-Set-de-Brochas%20con%20Estuche.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "brocha-para-polvos": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Brocha para Maquillaje en Polvo Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwfbf7a5db/hi-res/10004/10122327-Brocha%20para%20Maquillaje%20en%20Polvo.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "brocha-oval-para-base-de-maquillaje": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Brocha Oval Para Maquillaje Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwe35bb755/hi-res/10004/10128063-Brocha%20Oval%20Maquillaje.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  },
  "brocha-para-rubor": {
-  "alt": "Mary Kay® Cheek Brush",
-  "url": "https://www.marykay.com/dw/image/v2/BKGS_PRD/on/demandware.static/-/Sites-us-master-catalog/default/dw3a7255e4/hi-res/10003/10122321_Mary_Kay_Cheek_Brush_DE-CH-NL_highres.jpg?sw=1000&sh=1000&sm=fit"
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "Mary Kay® Cheek Brush",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dw3a7255e4/hi-res/10003/10122321_Mary_Kay_Cheek_Brush_DE-CH-NL_highres.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "brocha-para-base-de-maquillaje-liquida": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Brocha para Maquillaje Líquido Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwdbc0b248/hi-res/10004/10122325-Brocha%20Maquillaje%20Liquido.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
+ },
+ "brocha-para-rubor-compacto": {
+  "fuente": "sin foto",
+  "motivo": "no aparece en el PDF ni en marykay.com.mx / marykay.com"
+ },
+ "compacto-perfect-palette-mary-kay-vacio": {
+  "fuente": "PDF catálogo (imagen embebida, página 22)",
+  "caja_pt": [
+   672,
+   290,
+   930,
+   540
+  ],
+  "resolucion_nativa_aprox": "~538px lado mayor (150 ppi)",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "compacto-pettite-palette-mary-kay-vacio": {
+  "fuente": "oficial marykay.com",
+  "nombre_oficial": "Mary Kay Petite Palette® (unfilled)",
+  "url": "https://www.marykay.com/on/demandware.static/-/Sites-us-master-catalog/default/dwa21cf772/hi-res/10001/560109-UNL-GB-PetitePalette-Open-DM_9697-Hi-Res.jpg",
+  "resolucion_original": "600x600",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 800
+  }
+ },
+ "esponja-para-maquillaje": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Esponja para Maquillaje Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dw504555d1/hi-res/10006/Esponja%20Maquillaje.jpg",
+  "resolucion_original": "1080x1080",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1080
+  }
+ },
+ "esponja-cosmetica-x2": {
+  "fuente": "oficial marykay.com.mx",
+  "nombre_oficial": "Esponja Cosmética Mary Kay®",
+  "url": "https://www.marykay.com.mx/on/demandware.static/-/Sites-mx-master-catalog/default/dwa8b2452e/hi-res/10004/10134452-Esponja%20Cosmetica.jpg",
+  "resolucion_original": "2500x2500",
+  "salida": {
+   "sm": 400,
+   "md": 800,
+   "lg": 1600
+  }
  }
 }

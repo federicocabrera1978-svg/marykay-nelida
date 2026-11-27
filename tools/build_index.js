@@ -5,8 +5,9 @@ const CAT_ORDER=["Cuidado de la Piel","Maquillaje","Fragancias Femeninas","Fraga
 const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=n=>"$"+Number(n).toLocaleString("es-AR");
 const wa=t=>`https://api.whatsapp.com/send?phone=5492615119576&amp;text=${encodeURIComponent(t)}`;
+const imgSet=img=>{const m=/^img\/p\/([^/]+\.webp)$/.exec(img||"");return m?{sm:"img/p/sm/"+m[1],md:img,full:"img/p/lg/"+m[1]}:{sm:img,md:img,full:img};};
 function thumb(p){const f=p.isNew?'<span class="flag new">¡Nuevo!</span>':(p.feat?'<span class="flag">Destacado</span>':'');
- if(p.img) return `<div class="thumb has-img"><img src="/${esc(p.img)}" alt="${esc(p.name)}" loading="lazy">${f}</div>`;
+ if(p.img){const {sm,md,full}=imgSet(p.img); return `<div class="thumb has-img"><button type="button" class="zoom-btn" data-full="/${esc(full)}" aria-label="Ampliar foto: ${esc(p.name)}"><img src="/${esc(sm)}" srcset="/${esc(sm)} 1x, /${esc(md)} 2x" width="400" height="400" alt="${esc(p.name)}" loading="lazy" decoding="async"></button>${f}</div>`;}
  const i=(p.name.match(/[A-Za-zÁÉÍÓÚÑ]/)||["M"])[0].toUpperCase();
  return `<div class="thumb"><div class="thumb-fallback"><span class="mono">${esc(i)}</span><small>${esc(p.tag)}</small></div>${f}</div>`;}
 function card(p){return `<article class="card" data-pid="${esc(p.id)}">${thumb(p)}<div class="card-body"><span class="tag">${esc(p.tag)}</span><h3>${esc(p.name)}</h3><p class="meta">${esc(p.meta)}</p>${p.tones?`<p class="tones">${esc(p.tones)}</p>`:''}<div class="price-row"><span class="price">${fmt(p.price)}</span>${p.note?`<span class="price-note">${esc(p.note)}</span>`:''}</div><div class="card-actions"><a class="add-btn" href="${wa(`¡Hola Nélida! Quería consultar por: ${p.name} (${fmt(p.price)}). ¿Está disponible?`)}" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a></div></div></article>`;}
