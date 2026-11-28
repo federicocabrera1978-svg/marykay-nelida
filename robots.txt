@@ -1,2 +1,8 @@
 User-agent: *
+Allow: /
 Disallow: /admin
+Disallow: /data/
+Disallow: /tools/
+Disallow: /supabase/
+
+Sitemap: https://marykay-nelida.vercel.app/sitemap.xml
